@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="../fonts.css">
 <link rel="stylesheet" href="./home.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <div class="container-width">
 
@@ -30,6 +32,17 @@
     <div class="production">
         <div class="production_slider-box">
 
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
         </div>
         <div class="production_title">
             Собственное
@@ -39,3 +52,6 @@
     </div>
 
 </div>
+
+
+<script src="./scripts.js"></script>
