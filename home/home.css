@@ -1,0 +1,107 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.about-company {
+    border-radius: 50px;
+    background: #FFF;
+    padding: 43px 30px 30px 30px;
+}
+
+.about-company_top .big-text {
+    color: #292929;
+    font-size: 102px;
+    font-weight: 700;
+    line-height: 101%;
+}
+
+.about-company_top .small-text {
+    color: #B8B8D0;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 109%;
+}
+
+.about-company_bottom {
+    margin-top: 118px;
+    display: flex;
+    gap: 30px;
+}
+
+.about-company_bottom_image-box {
+    max-width: 515px;
+    position: relative;
+}
+
+.about-company_bottom_image-box .wholesale-order {
+    position: absolute;
+    padding: 12px;
+    background: #FFF;
+    border-radius: 50%;
+    color: #FFF;
+    top: -25%;
+    left: 13%;
+}
+
+.about-company_bottom_image-box .background-orange {
+    width: 129px;
+    height: 127px;
+    background: #FF6E1D;
+    border-radius: 50%;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 111.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-company_bottom_image-box .wholesale-Order-img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+.about-company_bottom_video-box {
+    position: relative;
+    width: 100%;
+}
+
+.about-company_bottom_video-box .video {
+    position: absolute;
+    border-radius: 30px;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.we-work {
+    color: #CBCBDA;
+    text-align: center;
+    font-size: 101px;
+    font-weight: 700;
+    line-height: 110%;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 20px 20px 40px 43px;
+    margin-top: 40px;
+}
+.we-work span {
+    color: #FF6E1D;
+    font-size: 101px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -3.03px;
+}
