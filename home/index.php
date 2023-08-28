@@ -49,7 +49,7 @@
 
 </div>
 
-    <div class="weekly-work">
+<div class="weekly-work">
         <div class="weekly-work_content">
             <div class="weekly-work_header">
                 Пошили на этой неделе:
@@ -205,24 +205,120 @@
 
             <div class="swiper reviews_swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-wrapper">
+
+                        <?php for($p = 0; $p < 4; $p++) { ?>
+                            <div class="swiper-slide reviews_item">
+                                <div class="reviews_item-top">
+                                    <img class="reviews_item-image" src="/home/images/Rectangle%204816.png" alt="">
+                                    <div class="reviews_item-biography">
+                                        Valeria Sharipyanova
+                                        <div class="reviews-stars-wrapper">
+                                            <div class="reviews-stars reviews-star-active"></div>
+                                            <div class="reviews-stars reviews-star-active"></div>
+                                            <div class="reviews-stars reviews-star-active"></div>
+                                            <div class="reviews-stars reviews-star-active"></div>
+                                            <div class="reviews-stars reviews-star-semi-active"></div>
+                                        </div>
+                                        <span>2 отзыва на Flamp</span>
+                                    </div>
+                                </div>
+                                <div class="reviews_item-bottom">
+                                    Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом. Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся непервыйраз ...
+                                    Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом. Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся непервыйраз ...
+                                </div>
+                                <button data-reviews-button-reade-more>Читать полностью</button>
+                            </div>
+                        <?php } ?>
+
+                    </div>
                 </div>
             </div>
 
             <div class="reviews_content_footer">
-                <div class="reviews_footer_buttons-wrapper">
-                    <a href="">Оставить отзыв</a>
-                    <a href="">Читать все отзывы (30)</a>
+                <div class="wrapper-reviews-buttons">
+                    <a class="button-leave-review" href="">Оставить отзыв</a>
+                    <a class="button-reade-all-reviews" href="">Читать все отзывы (30)</a>
                 </div>
-                <div class="slider-buttons-wrapper">
-                    <div class="reviews_swiper-button-prev"></div>
-                    <div class="reviews_swiper-button-next"></div>
+                <div class="wrapper-slider-buttons">
+                    <div class="reviews_swiper-button-prev reviews_swiper-buttons "></div>
+                    <div class="reviews_swiper-button-next reviews_swiper-buttons "></div>
                 </div>
             </div>
         </div>
 
     </div>
 
+    <div class="help">
+        <div class="help_contacts-block">
+            <p class="help-header">
+                Обращайтесь
+                <br> по <span>любым </span>
+                вопросам
+            </p>
+            <a class="contact-item contact-email" href="mailto:reformaopt@yandex.ru">reformaopt@yandex.ru</a>
+            <a class="contact-item contact-phone" href="tel:+73433020700">+7 (343) 302-07-00</a>
+            <div class="contact-item contact-location">Россия, г. Екатеринбург ул. Новинская д. 2</div>
+        </div>
+        <div class="help_form-block">
+            <input class="form-item" type="text" placeholder="Евгения">
+            <input class="form-item" type="text" placeholder="8 (905) 880-50-49">
+            <input class="form-item" type="text" placeholder="Email">
+            <textarea class="form-item form-textarea" rows="10"  placeholder="Дополнительный комментарий"></textarea>
+            <input class="form-submit" type="submit" value="Отправить сообщение">
+        </div>
+    </div>
+
+    <div class="map">
+        <p class="map_header">Как нас найти</p>
+        <img class="map-card" src="/home/images/image%2050.png" alt="">
+    </div>
+
+    <div class="SEO">
+        <p class="SEO_header">SEO текст</p>
+        <div class="SEO_container">
+            SEO—статья – это текст, оптимизированный под определенный список запросов, основной целью которого является занятие ведущих позиций по ним. Он должен быть написан с учётом требований, предъявляемых поисковыми системами и ориентированным на пользователей. Он должен быть написан с учётом требований, предъявляемых поисковыми системами
+        </div>
+        <button class="SEO_button">Читать подробнее</button>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="container-width">
+
+        <div class="footer_contacts">
+            <a class="footer_phone" href="tel:+73433020700">+7 (343) 302-07-00</a>
+            <a class="footer_leave-reviews" href="">Оптовый заказ</a>
+            <a class="footer_write-to-director" href="">Написать директору</a>
+            <a class="footer_email" href="">reformaopt@yandex.ru</a>
+        </div>
+        <div class="footer-content">
+            <div>
+                <div>
+                    <a href="">Пошив одежды</a>
+                    <a href="">Печать</a>
+                    <a href="">Технологии</a>
+                    <a href="">Отзывы</a>
+                    <a href="">Контакты</a>
+                </div>
+                <div>
+                    Печать и пошив <br> одежды оптом
+                    <img src="/home/images/Group%202054.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="rules">
+            <a href="">Карта сайта</a>
+            <a href="">Пользовательское соглашение</a>
+            <a href="">Политика конфиденциальности</a>
+        </div>
+
+    </div>
 </div>
 
 

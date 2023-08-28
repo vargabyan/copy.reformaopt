@@ -38,3 +38,15 @@ const products_swiper = new Swiper('.products_swiper', {
     },
 
 });
+
+const reviews_swiper = new Swiper('.reviews_swiper', {
+    direction: 'horizontal',
+    loop: true,
+
+    navigation: {
+        nextEl: '.reviews_swiper-button-prev',
+        prevEl: '.reviews_swiper-button-next',
+    },
+
+    // slidesPerView: 2,
+});

@@ -9,6 +9,7 @@ p {
 
 a {
     text-decoration: unset;
+    color: unset;
 }
 
 .container-width {
@@ -159,7 +160,6 @@ a {
     max-width: 100%;
     width: 100%;
     min-height: 293px;
-    position: relative;
     overflow-y: hidden;
     overflow-x: auto;
 }
@@ -167,10 +167,8 @@ a {
 .weekly-work_content {
     width: max-content;
     padding: 40px;
-    position: absolute;
     display: flex;
     gap: 60px;
-    left: 90px;
 }
 
 .weekly-work_header {
@@ -381,6 +379,11 @@ a {
     margin-top: 130px;
 }
 
+.reviews_swiper {
+    width: 100%;
+    height: 100%;
+}
+
 .technologies_header {
     font-size: 52px;
     font-weight: 500;
@@ -395,7 +398,7 @@ a {
 }
 
 .technologies_item {
-    padding:30px ;
+    padding: 30px;
     border-radius: 50px;
     background: #FFF;
 }
@@ -517,8 +520,361 @@ a {
 
 .reviews_content {
     margin-top: 20px;
-    height: 329px;
     border-radius: 50px;
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
 }
 
+.reviews_item {
+    display: flex;
+    flex-direction: column;
+    max-width: 545px;
+}
+
+.reviews_item-top {
+    display: flex;
+    gap: 20px;
+}
+
+.reviews_item-image {
+    width: 76px;
+    height: 76px;
+    border-radius: 40px;
+}
+
+.reviews_item-biography {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.reviews-stars {
+    width: 16px;
+    height: 15px;
+    display: block;
+}
+
+.reviews-stars-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.reviews-star-semi-active {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' viewBox='0 0 16 15' fill='none'%3E%3Cpath d='M8.00003 13.0008L11.845 14.8845C12.5891 15.2676 13.4588 14.6488 13.3167 13.8373L12.6726 10.1593C12.6161 9.83707 12.7252 9.50827 12.9643 9.28006L15.6929 6.67528C16.2949 6.10059 15.9627 5.09931 15.1307 4.98092L11.3599 4.4443C11.0295 4.39729 10.7439 4.19408 10.5962 3.9009L8.90985 0.554535C8.85419 0.444095 8.49987 0 8.00064 0C7.99993 0.465426 8.00002 10.8965 8.00003 12.7397L8.00003 13.0008Z' fill='%23E6E6F4'/%3E%3Cpath d='M7.99997 13.0008L4.15501 14.8845C3.41088 15.2676 2.54119 14.6488 2.6833 13.8373L3.32743 10.1593C3.38386 9.83707 3.27478 9.50827 3.03572 9.28006L0.307135 6.67528C-0.294872 6.10059 0.037323 5.09931 0.869277 4.98092L4.64009 4.4443C4.97046 4.39729 5.25605 4.19408 5.4038 3.9009L7.09015 0.554535C7.14581 0.444095 7.50013 0 7.99936 0C8.00007 0.465426 7.99998 10.8965 7.99997 12.7397L7.99997 13.0008Z' fill='%23FFCE50'/%3E%3C/svg%3E");
+}
+
+.reviews-star-active {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' viewBox='0 0 16 15' fill='none'%3E%3Cpath d='M7.09044 0.553731C7.4625 -0.184577 8.5375 -0.184577 8.90956 0.553731L10.5959 3.90009C10.7437 4.19328 11.0293 4.39649 11.3596 4.4435L15.1304 4.98011C15.9624 5.09851 16.2946 6.09978 15.6926 6.67448L12.964 9.27926C12.7249 9.50747 12.6159 9.83627 12.6723 10.1585L13.3164 13.8365C13.4585 14.648 12.5888 15.2668 11.8447 14.8837L8.472 13.1472C8.17651 12.995 7.82349 12.995 7.528 13.1472L4.15529 14.8837C3.41116 15.2668 2.54147 14.648 2.68358 13.8365L3.32771 10.1585C3.38415 9.83627 3.27506 9.50747 3.036 9.27926L0.307417 6.67448C-0.294591 6.09978 0.0376046 5.09851 0.869559 4.98011L4.64037 4.4435C4.97074 4.39649 5.25633 4.19328 5.40408 3.90009L7.09044 0.553731Z' fill='%23FFCE50'/%3E%3C/svg%3E");
+}
+
+.reviews_item-biography span {
+    color: #A9A9C1;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.reviews_item-bottom {
+    height: 66px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button[data-reviews-button-reade-more] {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #86869A;
+    font-size: 14px;
+    line-height: 20px;
+    background: unset;
+    width: max-content;
+    padding: 0;
+    border: none;
+    margin-top: 8px;
+}
+
+button[data-reviews-button-reade-more]:after {
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6' viewBox='0 0 12 6' fill='none'%3E%3Cpath d='M1 1L6 5L11 1' stroke='%2386869A' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+.reviews_content_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-reviews-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button-leave-review {
+    display: flex;
+    padding: 12px 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    text-align: center;;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.button-reade-all-reviews {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #FF6E1D;
+    color: #FF6E1D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.wrapper-slider-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.reviews_swiper-buttons {
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.reviews_swiper-button-prev {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='46' height='46' viewBox='0 0 46 46' fill='none'%3E%3Ccircle cx='23' cy='23' r='22.25' transform='matrix(1 0 0 -1 0 46)' fill='white' stroke='%23CBCBDA' stroke-width='1.5'/%3E%3Cpath d='M25 31L18 23L25 15' stroke='%23CBCBDA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.reviews_swiper-button-next {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='46' height='46' viewBox='0 0 46 46' fill='none'%3E%3Ccircle cx='23' cy='23' r='22.25' transform='matrix(-1 8.74228e-08 8.74228e-08 1 46 0)' fill='white' stroke='%23CBCBDA' stroke-width='1.5'/%3E%3Cpath d='M21 15L28 23L21 31' stroke='%23CBCBDA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+
+.help {
+    display: flex;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.help_contacts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 575px;
+    width: 100%;
+}
+
+.help-header {
+    color: #86869A;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.help-header span {
+    color: #FF6E1D;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.contact-item {
+    padding: 10px 20px;
+    gap: 8px;
+    border-radius: 30px;
+    background: #FFF;
+    font-size: 20px;
+    line-height: 130%;
+    max-width: max-content;
+    display: flex;
+}
+
+.contact-email:before {
+    display: block;
+    content: '';
+    width: 26px;
+    height: 26px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26Z' fill='%23CBCBDA'/%3E%3Cpath d='M10.0156 18.683C10.3533 18.683 10.5025 18.5285 10.691 18.3453L12.4921 16.594L10.2455 15.2393' fill='%23E9E9EF'/%3E%3Cpath d='M10.2457 15.24L15.6893 19.2618C16.3106 19.6046 16.7588 19.427 16.9136 18.6851L19.1294 8.24325C19.3563 7.33372 18.7827 6.92106 18.1884 7.19087L5.177 12.208C4.28886 12.5643 4.29415 13.0598 5.01513 13.2805L8.35415 14.3228L16.0843 9.44589C16.4493 9.22459 16.7843 9.34346 16.5094 9.5875' fill='white'/%3E%3C/svg%3E");
+}
+
+.contact-phone:before {
+    display: block;
+    content: '';
+    width: 21px;
+    height: 21px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21' fill='none'%3E%3Cpath d='M5.70078 7.94096C5.20817 8.58286 5.11876 9.45654 5.53117 10.1527C6.88406 12.4364 8.50026 14.044 10.7965 15.3921C11.461 15.7823 12.2898 15.719 12.9242 15.2816L14.4783 14.21C14.805 13.8833 15.26 13.79 15.6683 13.9183C16.975 14.35 18.375 14.5833 19.8333 14.5833C20.1428 14.5833 20.4395 14.7063 20.6583 14.925C20.8771 15.1438 21 15.4406 21 15.75V19.8333C21 20.1428 20.8771 20.4395 20.6583 20.6583C20.4395 20.8771 20.1428 21 19.8333 21C14.5732 21 9.52852 18.9104 5.80905 15.191C2.08958 11.4715 0 6.42679 0 1.16667C0 0.857247 0.122916 0.560501 0.341709 0.341709C0.560501 0.122916 0.857247 0 1.16667 0H5.25C5.55942 0 5.85616 0.122916 6.07496 0.341709C6.29375 0.560501 6.41667 0.857247 6.41667 1.16667C6.41667 2.625 6.65 4.025 7.08167 5.33167C7.21 5.74 7.11667 6.195 6.79 6.52167L5.70078 7.94096Z' fill='%23CBCBDA'/%3E%3C/svg%3E");
+}
+
+.contact-location:before {
+    display: block;
+    content: '';
+    width: 18px;
+    height: 26px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='26' viewBox='0 0 19 26' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M18.5854 9.28481C18.5854 10.6478 18.2914 11.9422 17.7634 13.1081H17.8141L17.4199 13.7903C17.3713 13.8776 17.3214 13.964 17.2701 14.0494L10.9008 25.0721C10.1859 26.3093 8.40003 26.3093 7.68513 25.0721L1.33007 14.0741C1.26864 13.9724 1.20911 13.8694 1.15153 13.7652L0.771883 13.1081H0.821924C0.293935 11.9422 0 10.6478 0 9.28481C0 4.15695 4.16047 0 9.29268 0C14.4249 0 18.5854 4.15695 18.5854 9.28481ZM9.29268 13.654C11.8588 13.654 13.939 11.5755 13.939 9.01158C13.939 6.44765 11.8588 4.36918 9.29268 4.36918C6.72657 4.36918 4.64634 6.44765 4.64634 9.01158C4.64634 11.5755 6.72657 13.654 9.29268 13.654Z' fill='%23CBCBDA'/%3E%3C/svg%3E");
+}
+
+.help_form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-item {
+    border-radius: 30px;
+    background: #FFF;
+    border: none;
+    padding: 16px 24px;
+    font-size: 12px;
+    line-height: 140%;
+    width: 100%;
+}
+
+.form-submit {
+    display: flex;
+    align-self: self-end;
+    padding: 12px 19px 12px 20px;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+    cursor: pointer;
+    width: max-content;
+}
+
+.form-textarea {
+    resize: none;
+}
+
+
+.map {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.map_header {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%
+}
+
+.map-card {
+    width: 1181px;
+    height: 553px;
+
+}
+
+
+.SEO {
+    max-width: 866px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.SEO_header {
+    color: #86869A;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: -0.11px;
+}
+
+.SEO_container {
+    color: #86869A;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.SEO_button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #86869A;
+    font-size: 14px;
+    line-height: 140%;
+    background: unset;
+    padding: 0;
+    width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+.SEO_button:after {
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6' viewBox='0 0 12 6' fill='none'%3E%3Cpath d='M1 1L6 5L11 1' stroke='%2386869A' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+
+.footer {
+    background: #FFF;
+    margin-top: 80px;
+    padding-bottom: 66px;
+    padding-top: 80px;
+}
+
+.footer_contacts {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #CBCBDA;
+    font-size: 77px;
+    font-weight: 600;
+    line-height: 105%;
+    gap: 49px;
+}
+
+.footer_leave-reviews {
+    max-width: 418px;
+    height: max-content;
+    width: 100%;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%
+}
+
+.footer_write-to-director {
+    max-width: 280px;
+    height: max-content;
+    padding: 12px;
+    border-radius: 30px;
+    background: #F3F3F8;
+    color: #86869A;
+    font-size: 20px;
+    line-height: 130%;
+}
