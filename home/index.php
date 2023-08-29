@@ -50,11 +50,12 @@
 </div>
 
 <div class="weekly-work">
+    <marquee>
         <div class="weekly-work_content">
             <div class="weekly-work_header">
                 Пошили на этой неделе:
             </div>
-            <?php for($i = 0; $i < 4; $i++)  {?>
+            <?php for ($i = 0; $i < 4; $i++) { ?>
                 <div class="weekly-work_item">
                     <img class="item-img" src="images/DSC01377 2.png" alt="">
                     <div class="item-header">
@@ -63,17 +64,18 @@
                 </div>
             <?php } ?>
         </div>
-    </div>
+    </marquee>
+</div>
 
 <div class="container-width">
 
     <div class="products">
         <p class="products_header">Наша продукция</p>
         <div class="products_filter" data-products-ckeckbox>
-                <div class="products_filter_item active">
-                    Пошив и производство футболок
-                </div>
-            <?php for($j = 0; $j < 4; $j++) { ?>
+            <div class="products_filter_item active">
+                Пошив и производство футболок
+            </div>
+            <?php for ($j = 0; $j < 4; $j++) { ?>
                 <div class="products_filter_item">
                     Сорочки на заказ
                 </div>
@@ -83,34 +85,30 @@
             <?php } ?>
         </div>
         <div class="products_showcase">
-            <?php for($j = 0; $j < 4; $j++) { ?>
-                <div class="products_showcase_item">
-                    <div class="swiper products_swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+
+            <div class="swiper products_swiper">
+                <div class="swiper-wrapper">
+                    <?php for ($j = 0; $j < 8; $j++) { ?>
+                        <div class="swiper-slide">
+                            <div class="products_showcase_item">
                                 <img class="products_swiper_img" src="./images/Rectangle%204829.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="products_swiper_img" src="./images/Rectangle%204829.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="products_swiper_img" src="./images/Rectangle%204829.png" alt="">
+                                <div class="descriptions">
+                                    Рубашка поло женская с длинным
+                                </div>
+                                <div class="price">
+                                    от 80 ₽
+                                </div>
+                                <a class="button-detail" href="">
+                                    Подробнее
+                                </a>
                             </div>
                         </div>
-                        <div class="products_swiper_button-prev products_swiper_button"></div>
-                        <div class="products_swiper_button-next products_swiper_button"></div>
-                    </div>
-                    <div class="descriptions">
-                        Рубашка поло женская с длинным
-                    </div>
-                    <div class="price">
-                        от 80 ₽
-                    </div>
-                    <a class="button-detail" href="">
-                        Подробнее
-                    </a>
+                    <?php } ?>
                 </div>
-            <?php } ?>
+                <div class="products_swiper_button-prev products_swiper_button"></div>
+                <div class="products_swiper_button-next products_swiper_button"></div>
+            </div>
+
         </div>
     </div>
 
@@ -154,12 +152,13 @@
         </div>
 
         <div class="technologies_items-container">
-            <?php for($K = 0; $K < 4; $K++) { ?>
+            <?php for ($K = 0; $K < 4; $K++) { ?>
 
                 <div class="technologies_item">
-                    <img class="technologies_item_img" src="./images/anthony-roberts--OI61ziuAh0-unsplash%204.png" alt="">
+                    <img class="technologies_item_img" src="./images/anthony-roberts--OI61ziuAh0-unsplash%204.png"
+                         alt="">
                     <div class="technologies_item_footer">
-                        <div class="descriptions" >Машинная вышивка на заказ</div>
+                        <div class="descriptions">Машинная вышивка на заказ</div>
                         <a class="detail" href="">Подробнее</a>
                     </div>
                 </div>
@@ -178,7 +177,7 @@
         </div>
 
         <div class="guarantee_footer_item-wrapper">
-            <?php for($l = 0; $l < 5; $l++) { ?>
+            <?php for ($l = 0; $l < 5; $l++) { ?>
                 <div class="guarantee_item">
                     <img src="./images/image%2036.png" class="guarantee_img" alt="">
                 </div>
@@ -205,33 +204,35 @@
 
             <div class="swiper reviews_swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-wrapper">
-
-                        <?php for($p = 0; $p < 4; $p++) { ?>
-                            <div class="swiper-slide reviews_item">
-                                <div class="reviews_item-top">
-                                    <img class="reviews_item-image" src="/home/images/Rectangle%204816.png" alt="">
-                                    <div class="reviews_item-biography">
-                                        Valeria Sharipyanova
-                                        <div class="reviews-stars-wrapper">
-                                            <div class="reviews-stars reviews-star-active"></div>
-                                            <div class="reviews-stars reviews-star-active"></div>
-                                            <div class="reviews-stars reviews-star-active"></div>
-                                            <div class="reviews-stars reviews-star-active"></div>
-                                            <div class="reviews-stars reviews-star-semi-active"></div>
+                    <?php for ($p = 0; $p < 4; $p++) { ?>
+                            <div class="swiper-slide">
+                                <div class="reviews_item">
+                                    <div class="reviews_item-top">
+                                        <img class="reviews_item-image" src="/home/images/Rectangle%204816.png" alt="">
+                                        <div class="reviews_item-biography">
+                                            Valeria Sharipyanova
+                                            <div class="reviews-stars-wrapper">
+                                                <div class="reviews-stars reviews-star-active"></div>
+                                                <div class="reviews-stars reviews-star-active"></div>
+                                                <div class="reviews-stars reviews-star-active"></div>
+                                                <div class="reviews-stars reviews-star-active"></div>
+                                                <div class="reviews-stars reviews-star-semi-active"></div>
+                                            </div>
+                                            <span>2 отзыва на Flamp</span>
                                         </div>
-                                        <span>2 отзыва на Flamp</span>
                                     </div>
+                                    <div class="reviews_item-bottom">
+                                        Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом.
+                                        Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся
+                                        непервыйраз ...
+                                        Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом.
+                                        Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся
+                                        непервыйраз ...
+                                    </div>
+                                    <button data-reviews-button-reade-more>Читать полностью</button>
                                 </div>
-                                <div class="reviews_item-bottom">
-                                    Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом. Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся непервыйраз ...
-                                    Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом. Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся непервыйраз ...
-                                </div>
-                                <button data-reviews-button-reade-more>Читать полностью</button>
                             </div>
-                        <?php } ?>
-
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
 
@@ -241,8 +242,8 @@
                     <a class="button-reade-all-reviews" href="">Читать все отзывы (30)</a>
                 </div>
                 <div class="wrapper-slider-buttons">
-                    <div class="reviews_swiper-button-prev reviews_swiper-buttons "></div>
-                    <div class="reviews_swiper-button-next reviews_swiper-buttons "></div>
+                    <div class="reviews_swiper-button-prev reviews_swiper-buttons"></div>
+                    <div class="reviews_swiper-button-next reviews_swiper-buttons"></div>
                 </div>
             </div>
         </div>
@@ -264,7 +265,7 @@
             <input class="form-item" type="text" placeholder="Евгения">
             <input class="form-item" type="text" placeholder="8 (905) 880-50-49">
             <input class="form-item" type="text" placeholder="Email">
-            <textarea class="form-item form-textarea" rows="10"  placeholder="Дополнительный комментарий"></textarea>
+            <textarea class="form-item form-textarea" rows="10" placeholder="Дополнительный комментарий"></textarea>
             <input class="form-submit" type="submit" value="Отправить сообщение">
         </div>
     </div>
@@ -277,7 +278,10 @@
     <div class="SEO">
         <p class="SEO_header">SEO текст</p>
         <div class="SEO_container">
-            SEO—статья – это текст, оптимизированный под определенный список запросов, основной целью которого является занятие ведущих позиций по ним. Он должен быть написан с учётом требований, предъявляемых поисковыми системами и ориентированным на пользователей. Он должен быть написан с учётом требований, предъявляемых поисковыми системами
+            SEO—статья – это текст, оптимизированный под определенный список запросов, основной целью которого является
+            занятие ведущих позиций по ним. Он должен быть написан с учётом требований, предъявляемых поисковыми
+            системами и ориентированным на пользователей. Он должен быть написан с учётом требований, предъявляемых
+            поисковыми системами
         </div>
         <button class="SEO_button">Читать подробнее</button>
     </div>
@@ -288,34 +292,44 @@
     <div class="container-width">
 
         <div class="footer_contacts">
-            <a class="footer_phone" href="tel:+73433020700">+7 (343) 302-07-00</a>
-            <a class="footer_leave-reviews" href="">Оптовый заказ</a>
-            <a class="footer_write-to-director" href="">Написать директору</a>
-            <a class="footer_email" href="">reformaopt@yandex.ru</a>
+            <div class="footer_item">
+                <a class="footer_phone" href="tel:+73433020700">+7 (343) 302-07-00</a>
+                <a class="footer_leave-reviews" href="">Оптовый заказ</a>
+            </div>
+            <div class="footer_item">
+                <a class="footer_write-to-director" href="">Написать директору</a>
+                <a class="footer_email" href="">reformaopt@yandex.ru</a>
+            </div>
         </div>
         <div class="footer-content">
-            <div>
-                <div>
-                    <a href="">Пошив одежды</a>
-                    <a href="">Печать</a>
-                    <a href="">Технологии</a>
-                    <a href="">Отзывы</a>
-                    <a href="">Контакты</a>
+            <div class="wrapper-footer-navigation">
+                <div class="footer_navigation">
+                    <a class="footer_navigation_item" href="">Пошив одежды</a>
+                    <a class="footer_navigation_item" href="">Печать</a>
+                    <a class="footer_navigation_item" href="">Технологии</a>
+                    <a class="footer_navigation_item" href="">Отзывы</a>
+                    <a class="footer_navigation_item" href="">Контакты</a>
                 </div>
-                <div>
+                <div class="wrapper-footer-logo">
                     Печать и пошив <br> одежды оптом
-                    <img src="/home/images/Group%202054.png" alt="">
+                    <img class="footer_logo" src="/home/images/Group%202054.png" alt="">
                 </div>
             </div>
-            <div>
-                <div></div>
-                <div></div>
+            <div class="working-time">
+                <div class="working-days">
+                    <span>Время работы:</span>
+                    понедельник - пятница с 09:00 до 18:00
+                </div>
+                <div class="working-days">
+                    <span>Адрес:</span>
+                    Россия, г. Екатеринбург, ул. Новинская д. 2
+                </div>
             </div>
         </div>
         <div class="rules">
-            <a href="">Карта сайта</a>
-            <a href="">Пользовательское соглашение</a>
-            <a href="">Политика конфиденциальности</a>
+            <a class="rules_item" href="">Карта сайта</a>
+            <a class="rules_item" href="">Пользовательское соглашение</a>
+            <a class="rules_item" href="">Политика конфиденциальности</a>
         </div>
 
     </div>

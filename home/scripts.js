@@ -37,6 +37,7 @@ const products_swiper = new Swiper('.products_swiper', {
         prevEl: '.products_swiper_button-prev',
     },
 
+    slidesPerView: 4,
 });
 
 const reviews_swiper = new Swiper('.reviews_swiper', {
@@ -48,5 +49,5 @@ const reviews_swiper = new Swiper('.reviews_swiper', {
         prevEl: '.reviews_swiper-button-next',
     },
 
-    // slidesPerView: 2,
+    slidesPerView: 2,
 });
