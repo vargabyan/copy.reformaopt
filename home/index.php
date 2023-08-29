@@ -177,14 +177,17 @@
         </div>
 
         <div class="guarantee_footer_item-wrapper">
-            <?php for ($l = 0; $l < 5; $l++) { ?>
+            <?php for ($l = 0; $l < 4; $l++) { ?>
                 <div class="guarantee_item">
-                    <img src="./images/image%2036.png" class="guarantee_img" alt="">
+                    <img src="./images/image%2018.png" class="guarantee_img" alt="">
                 </div>
                 <div class="guarantee_item">
-                    <img src="./images/image%2038.png" class="guarantee_img" alt="">
+                    <img src="./images/image%2035.png" class="guarantee_img" alt="">
                 </div>
             <?php } ?>
+            <div class="guarantee_item">
+                <img src="./images/image%2035.png" class="guarantee_img" alt="">
+            </div>
         </div>
     </div>
 
@@ -312,7 +315,7 @@
                 </div>
                 <div class="wrapper-footer-logo">
                     Печать и пошив <br> одежды оптом
-                    <img class="footer_logo" src="/home/images/Group%202054.png" alt="">
+                    <img class="footer_logo" src="/home/images/Group-color%202054.png" alt="">
                 </div>
             </div>
             <div class="working-time">

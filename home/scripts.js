@@ -51,3 +51,26 @@ const reviews_swiper = new Swiper('.reviews_swiper', {
 
     slidesPerView: 2,
 });
+
+document.addEventListener('click', (e) => {
+    const dataReviewsButtonReadeMore = e.target.closest('[data-reviews-button-reade-more]');
+
+    if (dataReviewsButtonReadeMore) {
+        const wrapperBlock = dataReviewsButtonReadeMore.closest('.reviews_item');
+
+        wrapperBlock.querySelector('.reviews_item-bottom').style['height'] = '100%';
+        dataReviewsButtonReadeMore.style['display'] = 'none';
+    }
+})
+
+document.addEventListener('DOMContentLoaded', () => {
+    const wrapperBlock = document.querySelectorAll('.reviews_item');
+
+    wrapperBlock.forEach((DOMElement) => {
+        const ContentTextLength = DOMElement.querySelector('.reviews_item-bottom').textContent.length;
+
+        if (ContentTextLength < 339) {
+            DOMElement.querySelector('[data-reviews-button-reade-more]').style['display'] = 'none';
+        }
+    })
+})
