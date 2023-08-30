@@ -1,0 +1,144 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_wrapper-items {
+    display: flex;
+    gap: 16px;
+    border-radius: 78px;
+    background: #FFF;
+    padding: 12px 30px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar_wrapper-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    line-height: 109%;
+}
+
+.navbar_logo {
+    width: 34px;
+    height: 22px;
+}
+
+.navbar_item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.item_link {
+    display: flex;
+    gap: 4px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+}
+
+.item_link:hover {
+    color: #000;
+}
+
+.link-toggle:after {
+    display: flex;
+    content: '';
+    width: 8px;
+    height: 5px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='4' viewBox='0 0 10 4' fill='none'%3E%3Cpath d='M9 0.5L5 3.5L1 0.5' stroke='%23808080' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.button-toggle {
+    position: relative;
+}
+
+.navbar_dropdown {
+    display: none;
+    position: absolute;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    top: 45px;
+    left: -22px;
+    padding: 20px 36px 20px 20px;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 172px;
+    flex-wrap: wrap;
+    width: max-content;
+}
+
+.navbar_dropdown:hover {
+    display: flex;
+}
+
+.button-toggle:hover >.navbar_dropdown {
+    display: flex;
+}
+
+.dropdown_link {
+    padding-right: 44px;
+    color: #86869A;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.dropdown_link:hover {
+    color: #000;
+}
+
+.order-call {
+    height: max-content;
+    display: flex;
+    padding: 12px 18px 12px 19px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    white-space: nowrap;
+}
+
+.order-call:hover {
+    padding: 12px 14px 12px 15px;
+}
+
+.link-orange {
+    color: #E0562E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.link-orange:hover {
+    color: #000;
+}
