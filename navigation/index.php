@@ -11,25 +11,33 @@
             <li class="navbar_item button-toggle">
                 <a class="item_link link-toggle" href="">Печать</a>
                 <div class="navbar_dropdown">
-                    <a class="dropdown_link" href="">Футболки</a>
-                    <a class="dropdown_link" href="">Толстовки</a>
-                    <a class="dropdown_link" href="">Бейсболки</a>
-                    <a class="dropdown_link" href="">Свитшоты</a>
-                    <a class="dropdown_link" href="">Жилеты</a>
-                    <a class="dropdown_link" href="">Рубашки</a>
-                    <a class="dropdown_link" href="">Ветровки</a>
+                    <div class="navbar_items-wrapper">
+                        <a class="dropdown_link" href="">Футболки</a>
+                        <a class="dropdown_link" href="">Толстовки</a>
+                        <a class="dropdown_link" href="">Бейсболки</a>
+                        <a class="dropdown_link" href="">Свитшоты</a>
+                        <a class="dropdown_link" href="">Жилеты</a>
+                        <a class="dropdown_link" href="">Рубашки</a>
+                        <a class="dropdown_link" href="">Ветровки</a>
+                    </div>
                 </div>
             </li>
             <li class="navbar_item button-toggle">
                 <a class="item_link link-toggle" href="">Пошив одежды</a>
                 <div class="navbar_dropdown">
-                    <a class="dropdown_link" href="">test</a>
+                    <div class="navbar_items-wrapper">
+                        <a class="dropdown_link" href="">test</a>
+                        <a class="dropdown_link" href="">test</a>
+                    </div>
                 </div>
             </li>
             <li class="navbar_item button-toggle">
                 <a class="item_link link-toggle" href="">Технологии</a>
                 <div class="navbar_dropdown">
-                    <a class="dropdown_link" href="">test</a>
+                    <div class="navbar_items-wrapper">
+                        <a class="dropdown_link" href="">test</a>
+                        <a class="dropdown_link" href="">test</a>
+                    </div>
                 </div>
             </li>
             <li class="navbar_item">
