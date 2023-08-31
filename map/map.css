@@ -1,0 +1,39 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+
+.map {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.map_header {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%
+}
+
+.map-card {
+    width: 1181px;
+    height: 553px;
+
+}

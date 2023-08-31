@@ -1,7 +1,11 @@
-<link rel="stylesheet" href="../fonts.css">
-<link rel="stylesheet" href="./home.css">
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/home/home.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<?php
+require(__DIR__ . '/../navigation/index.php');
+?>
 
 <div class="container-width">
 
@@ -253,30 +257,13 @@
 
     </div>
 
-    <div class="help">
-        <div class="help_contacts-block">
-            <p class="help-header">
-                Обращайтесь
-                <br> по <span>любым </span>
-                вопросам
-            </p>
-            <a class="contact-item contact-email" href="mailto:reformaopt@yandex.ru">reformaopt@yandex.ru</a>
-            <a class="contact-item contact-phone" href="tel:+73433020700">+7 (343) 302-07-00</a>
-            <div class="contact-item contact-location">Россия, г. Екатеринбург ул. Новинская д. 2</div>
-        </div>
-        <div class="help_form-block">
-            <input class="form-item" type="text" placeholder="Евгения">
-            <input class="form-item" type="text" placeholder="8 (905) 880-50-49">
-            <input class="form-item" type="text" placeholder="Email">
-            <textarea class="form-item form-textarea" rows="10" placeholder="Дополнительный комментарий"></textarea>
-            <input class="form-submit" type="submit" value="Отправить сообщение">
-        </div>
-    </div>
+    <?php
+        require(__DIR__ . '/../help/index.php');
+    ?>
 
-    <div class="map">
-        <p class="map_header">Как нас найти</p>
-        <img class="map-card" src="/home/images/image%2050.png" alt="">
-    </div>
+    <?php
+    require(__DIR__ . '/../map/index.php');
+    ?>
 
     <div class="SEO">
         <p class="SEO_header">SEO текст</p>
@@ -291,52 +278,8 @@
 
 </div>
 
-<div class="footer">
-    <div class="container-width">
-
-        <div class="footer_contacts">
-            <div class="footer_item">
-                <a class="footer_phone" href="tel:+73433020700">+7 (343) 302-07-00</a>
-                <a class="footer_leave-reviews" href="">Оптовый заказ</a>
-            </div>
-            <div class="footer_item">
-                <a class="footer_write-to-director" href="">Написать директору</a>
-                <a class="footer_email" href="">reformaopt@yandex.ru</a>
-            </div>
-        </div>
-        <div class="footer-content">
-            <div class="wrapper-footer-navigation">
-                <div class="footer_navigation">
-                    <a class="footer_navigation_item" href="">Пошив одежды</a>
-                    <a class="footer_navigation_item" href="">Печать</a>
-                    <a class="footer_navigation_item" href="">Технологии</a>
-                    <a class="footer_navigation_item" href="">Отзывы</a>
-                    <a class="footer_navigation_item" href="">Контакты</a>
-                </div>
-                <div class="wrapper-footer-logo">
-                    Печать и пошив <br> одежды оптом
-                    <img class="footer_logo" src="/home/images/Group-color%202054.png" alt="">
-                </div>
-            </div>
-            <div class="working-time">
-                <div class="working-days">
-                    <span>Время работы:</span>
-                    понедельник - пятница с 09:00 до 18:00
-                </div>
-                <div class="working-days">
-                    <span>Адрес:</span>
-                    Россия, г. Екатеринбург, ул. Новинская д. 2
-                </div>
-            </div>
-        </div>
-        <div class="rules">
-            <a class="rules_item" href="">Карта сайта</a>
-            <a class="rules_item" href="">Пользовательское соглашение</a>
-            <a class="rules_item" href="">Политика конфиденциальности</a>
-        </div>
-
-    </div>
-</div>
-
+<?php
+require(__DIR__ . '/../footer/index.php');
+?>
 
 <script src="./scripts.js"></script>
