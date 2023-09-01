@@ -28,18 +28,6 @@ document.addEventListener('click', (e) => {
     }
 })
 
-const products_swiper = new Swiper('.products_swiper', {
-    direction: 'horizontal',
-    loop: true,
-
-    navigation: {
-        nextEl: '.products_swiper_button-next',
-        prevEl: '.products_swiper_button-prev',
-    },
-
-    slidesPerView: 4,
-});
-
 const reviews_swiper = new Swiper('.reviews_swiper', {
     direction: 'horizontal',
     loop: true,

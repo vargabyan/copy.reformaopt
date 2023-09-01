@@ -1,0 +1,45 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.additional-information {
+    margin-top: 60px;
+    max-width: 880px;
+    color: #86869A;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.additional-information_header {
+    font-size: 28px;
+    line-height: 130%;
+    color: #000;
+}
+
+
+.additional-information-top .additional-information-text {
+    white-space: pre-line;
+}
+
+.additional-information-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}

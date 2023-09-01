@@ -1,6 +1,14 @@
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/printing_clothing_and_textiles/printing_clothing_and_textiles.css">
 
+<?php
+    require(__DIR__ . '/../navigation/index.php');
+?>
+
+<?php
+    require(__DIR__ . '/../breadcrumb/index.php');
+    breadcrumb(['url'=> '/printing_clothing_and_textiles', 'name' => 'Печать на одежде и текстиле']);
+?>
 
 <div class="container-width">
 

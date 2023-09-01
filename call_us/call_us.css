@@ -1,0 +1,44 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.call-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 36px 30px;
+    margin-top: 90px;
+}
+
+.call-us_working-time {
+    color: #86869A;
+    font-size: 28px;
+    line-height: 135%;
+}
+
+.call-us_phone {
+    color: #FF6E1D;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 120%;
+    white-space: nowrap;
+}

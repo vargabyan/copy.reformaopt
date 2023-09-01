@@ -1,0 +1,46 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.breadcrumb_items {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 60px;
+}
+
+.breadcrumb_item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.breadcrumb_arrow:after {
+    display: block;
+    content: '';
+    width: 6px;
+    height: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='10' viewBox='0 0 6 10' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.646447 9.35355C0.451184 9.15829 0.451184 8.84171 0.646447 8.64645L4.29289 5L0.646447 1.35355C0.451185 1.15829 0.451185 0.841708 0.646447 0.646446C0.841709 0.451184 1.15829 0.451184 1.35355 0.646446L5.35355 4.64645C5.54882 4.84171 5.54882 5.15829 5.35355 5.35355L1.35355 9.35355C1.15829 9.54882 0.841709 9.54882 0.646447 9.35355Z' fill='black'/%3E%3C/svg%3E");
+}
+
+.last-element {
+    color: #86869A;
+}

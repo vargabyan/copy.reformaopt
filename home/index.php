@@ -73,81 +73,13 @@ require(__DIR__ . '/../navigation/index.php');
 
 <div class="container-width">
 
-    <div class="products">
-        <p class="products_header">Наша продукция</p>
-        <div class="products_filter" data-products-ckeckbox>
-            <div class="products_filter_item active">
-                Пошив и производство футболок
-            </div>
-            <?php for ($j = 0; $j < 4; $j++) { ?>
-                <div class="products_filter_item">
-                    Сорочки на заказ
-                </div>
-                <div class="products_filter_item">
-                    Пошив толстовок оптом
-                </div>
-            <?php } ?>
-        </div>
-        <div class="products_showcase">
+    <?php
+    require(__DIR__ . '/../products/index.php');
+    ?>
 
-            <div class="swiper products_swiper">
-                <div class="swiper-wrapper">
-                    <?php for ($j = 0; $j < 8; $j++) { ?>
-                        <div class="swiper-slide">
-                            <div class="products_showcase_item">
-                                <img class="products_swiper_img" src="./images/Rectangle%204829.png" alt="">
-                                <div class="descriptions">
-                                    Рубашка поло женская с длинным
-                                </div>
-                                <div class="price">
-                                    от 80 ₽
-                                </div>
-                                <a class="button-detail" href="">
-                                    Подробнее
-                                </a>
-                            </div>
-                        </div>
-                    <?php } ?>
-                </div>
-                <div class="products_swiper_button-prev products_swiper_button"></div>
-                <div class="products_swiper_button-next products_swiper_button"></div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="services">
-        <div class="services_header">
-            Фабрика РеФорма — это строгий
-            <span>контроль качества,</span>
-            <br> а также
-        </div>
-        <div class="services_item-container">
-            <div class="services_item">
-                Работа
-                <br> отечественными
-                <br> производителями
-                <div class="services_item_wrapper-svg">
-                    <div class="services_item_svg item-svg-1"></div>
-                </div>
-            </div>
-            <div class="services_item">
-                Широкий
-                <br> ассортимент
-                <br> продукции
-                <div class="services_item_wrapper-svg">
-                    <div class="services_item_svg item-svg-2"></div>
-                </div>
-            </div>
-            <div class="services_item">
-                Склад готовой
-                <br> продукции
-                <div class="services_item_wrapper-svg">
-                    <div class="services_item_svg item-svg-3 "></div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    require(__DIR__ . '/../services/index.php');
+    ?>
 
     <div class="technologies">
 
@@ -172,28 +104,9 @@ require(__DIR__ . '/../navigation/index.php');
 
     </div>
 
-    <div class="guarantee">
-        <div class="guarantee_item">
-            <img src="./images/image%2019.png" class="guarantee_img" alt="">
-        </div>
-        <div class="guarantee_header">
-            Нам доверяют лучшие
-        </div>
-
-        <div class="guarantee_footer_item-wrapper">
-            <?php for ($l = 0; $l < 4; $l++) { ?>
-                <div class="guarantee_item">
-                    <img src="./images/image%2018.png" class="guarantee_img" alt="">
-                </div>
-                <div class="guarantee_item">
-                    <img src="./images/image%2035.png" class="guarantee_img" alt="">
-                </div>
-            <?php } ?>
-            <div class="guarantee_item">
-                <img src="./images/image%2035.png" class="guarantee_img" alt="">
-            </div>
-        </div>
-    </div>
+    <?php
+    require(__DIR__ . '/../guarantee/index.php');
+    ?>
 
     <div class="reviews">
 

@@ -1,0 +1,64 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.guarantee {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.guarantee_header {
+    color: #C4C4CF;
+    font-size: 77px;
+    font-weight: 600;
+    line-height: 105%;
+}
+
+.guarantee_footer_item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: end;
+}
+
+.guarantee_item {
+    width: 272px;
+    height: 156px;
+    border-radius: 30px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guarantee_img {
+    width: 190px;
+    height: 87px;
+    filter: grayscale(1);
+    opacity: 0.8;
+}
+
+.guarantee_img:hover {
+    width: 190px;
+    height: 87px;
+    filter: none;
+    opacity: 1;
+}
