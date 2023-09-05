@@ -1,0 +1,67 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.error-404 {
+    display: flex;
+    margin-bottom: 152px;
+}
+
+.error-404_text-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 574px;
+}
+
+.error-404_header {
+    color: #A9A9C1;
+    font-size: 141px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.error-404_explanation {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.error-404_button {
+    width: min-content;
+    white-space: nowrap;
+    margin-top: 40px;
+    padding: 12px 30px 12px 31px;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.error-404_button:hover {
+    padding: 12px 36px 12px 37px;
+}
+
+.error-404_img {
+    margin-top: 41px;
+    max-width: 480px;
+    max-height: 412px;
+    width: 100%;
+    height: 100%;
+}

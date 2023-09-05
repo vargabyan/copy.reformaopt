@@ -1,0 +1,27 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.breadcrumb_items {
+    margin-top: -30px;
+}
+
+.technologies {
+    margin-top: 0 !important;
+}

@@ -5,7 +5,7 @@
     <div class="navBar">
         <ul class="navbar_wrapper-items">
             <li class="navbar_item navbar_wrapper-logo">
-                <img class="navbar_logo" src="/navigation/images/RE.png" alt="">
+                <img class="navbar_logo" src="/navigation/images/1.png" alt="">
                 Печать и пошив <br> одежды оптом
             </li>
             <li class="navbar_item button-toggle">

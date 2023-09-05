@@ -1,0 +1,81 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.breadcrumb_items {
+    margin-top: -30px;
+}
+
+
+.letter-to-director_header {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.letter-to-director_form {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.letter-to-director_input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+    max-width: 575px;
+    width: 100%;
+}
+
+.letter-to-director_input {
+    border-radius: 30px;
+    background: #FFF;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 140%;
+    border: none;
+    width: 100%;
+}
+
+.letter-to-director_input::placeholder {
+    color: #A9A9C1;
+}
+
+.letter-to-director-textarea {
+    resize: none;
+}
+
+.letter-to-director_button {
+    display: block;
+    white-space: nowrap;
+    width: min-content;
+    padding: 12px 19px 12px 20px;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 20px;
+    float: right;
+}
+
+.letter-to-director_button:hover {
+    padding: 12px 25px 12px 26px;
+}

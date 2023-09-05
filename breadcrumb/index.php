@@ -2,31 +2,25 @@
 <link rel="stylesheet" href="/breadcrumb/breadcrumb.css">
 
 
-<?php
-$urlsAndNames = [['name' => 'Главная', 'url' => '/']];
-function breadcrumb(array $params) {
-
-//    echo 'test';
-//    foreach ($params as $value) {
-//        array_push($this->urlsAndNames, [$value[] => ]);
-//    }
-//    print_r($this->urlsAndNames );
-
-}
-
-?>
-
+<?php function breadcrumb($params) { ?>
 <div class="container-width">
 
     <div class="breadcrumb_items">
-        <?php foreach ($urlsAndNames as $value) { ?>
-            <a class="breadcrumb_item breadcrumb_arrow" href="<?php $value['url'] ?>">
-                <?php echo $value['name'] ?>
+        <a class="breadcrumb_item breadcrumb_arrow" href="/">
+            Главная
+        </a>
+        <?php foreach ($params as $index => $value ) {
+                if ($value['pageName'] !== end($params)['pageName']) {
+            ?>
+            <a class="breadcrumb_item breadcrumb_arrow" href="<?php echo $value['url'] ?>">
+                <?php echo $value['pageName'] ?>
             </a>
-        <?php } ?>
+        <?php }} ?>
         <div class="breadcrumb_item last-element">
-            <?php echo end($urlsAndNames)['name'] ?>
+            <?php echo end($params)['pageName'] ?>
         </div>
     </div>
 
 </div>
+
+<?php } ?>

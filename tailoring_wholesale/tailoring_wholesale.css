@@ -1,0 +1,78 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.tailoring-wholesale_header {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.tailoring-wholesale_conten {
+    display: flex;
+}
+
+.tailoring-wholesale_filter_wrapper {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tailoring-wholesale-filter {
+    max-width: 193px;
+    border-radius: 30px;
+    background: #FFF;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #A9A9C1;
+    margin-top: 30px;
+}
+
+.tailoring-wholesale_filter_item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tailoring-wholesale_filter_item:hover {
+    color: #000;
+}
+
+.tailoring-wholesale_filter_item:hover > .tailoring-wholesale_filter_item_dropdown {
+    display: flex;
+}
+
+.tailoring-wholesale_filter_item_dropdown {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 20px;
+}
+
+.tailoring-wholesale_filter_item_dropdown-item {
+    color: #A9A9C1;
+}
+
+.tailoring-wholesale_filter_item_dropdown-item:hover {
+    color: #000;
+}

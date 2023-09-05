@@ -81,94 +81,17 @@ require(__DIR__ . '/../navigation/index.php');
     require(__DIR__ . '/../services/index.php');
     ?>
 
-    <div class="technologies">
-
-        <div class="technologies_header">
-            Технологии печати
-        </div>
-
-        <div class="technologies_items-container">
-            <?php for ($K = 0; $K < 4; $K++) { ?>
-
-                <div class="technologies_item">
-                    <img class="technologies_item_img" src="./images/anthony-roberts--OI61ziuAh0-unsplash%204.png"
-                         alt="">
-                    <div class="technologies_item_footer">
-                        <div class="descriptions">Машинная вышивка на заказ</div>
-                        <a class="detail" href="">Подробнее</a>
-                    </div>
-                </div>
-
-            <?php } ?>
-        </div>
-
-    </div>
+    <?php
+    require(__DIR__ . '/../print_technologies/component_print_technologies.php');
+    ?>
 
     <?php
     require(__DIR__ . '/../guarantee/index.php');
     ?>
 
-    <div class="reviews">
-
-        <div class="reviews_header">
-            Отзывы о нашей работе
-        </div>
-
-        <a class="reviews_button" href="">
-            <div class="reviews_button_svg">
-                сервис отзывов
-            </div>
-        </a>
-
-        <div class="reviews_content">
-
-            <div class="swiper reviews_swiper">
-                <div class="swiper-wrapper">
-                    <?php for ($p = 0; $p < 4; $p++) { ?>
-                            <div class="swiper-slide">
-                                <div class="reviews_item">
-                                    <div class="reviews_item-top">
-                                        <img class="reviews_item-image" src="/home/images/Rectangle%204816.png" alt="">
-                                        <div class="reviews_item-biography">
-                                            Valeria Sharipyanova
-                                            <div class="reviews-stars-wrapper">
-                                                <div class="reviews-stars reviews-star-active"></div>
-                                                <div class="reviews-stars reviews-star-active"></div>
-                                                <div class="reviews-stars reviews-star-active"></div>
-                                                <div class="reviews-stars reviews-star-active"></div>
-                                                <div class="reviews-stars reviews-star-semi-active"></div>
-                                            </div>
-                                            <span>2 отзыва на Flamp</span>
-                                        </div>
-                                    </div>
-                                    <div class="reviews_item-bottom">
-                                        Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом.
-                                        Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся
-                                        непервыйраз ...
-                                        Отличная компания! Обращаемся непервыйраз. Отшивали одежду скорпоративным принтом.
-                                        Споставленной задачей команда каждый разсправляется качественно, всрок. Обращаемся
-                                        непервыйраз ...
-                                    </div>
-                                    <button data-reviews-button-reade-more>Читать полностью</button>
-                                </div>
-                            </div>
-                    <?php } ?>
-                </div>
-            </div>
-
-            <div class="reviews_content_footer">
-                <div class="wrapper-reviews-buttons">
-                    <a class="button-leave-review" href="">Оставить отзыв</a>
-                    <a class="button-reade-all-reviews" href="">Читать все отзывы (30)</a>
-                </div>
-                <div class="wrapper-slider-buttons">
-                    <div class="reviews_swiper-button-prev reviews_swiper-buttons"></div>
-                    <div class="reviews_swiper-button-next reviews_swiper-buttons"></div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <?php
+    require(__DIR__ . '/../reviews/component-reviews.php');
+    ?>
 
     <?php
         require(__DIR__ . '/../help/index.php');
