@@ -13,24 +13,29 @@
                     <p>Количество: 10 штук</p>
                     <p>Цвет: более 3х</p>
                 </div>
-                <divl class="popup_input-wrapper">
+                <div class="popup_input-wrapper">
                     <input class="popup-input" type="text" placeholder="Ваше имя">
                     <input class="popup-input" type="text" placeholder="Контактный телефон">
                     <input class="popup-input" type="text" placeholder="Email">
                     <textarea class="popup-input popup-textarea" cols="30" rows="8" placeholder="Ваш вопрос/комментарий"></textarea>
-                </divl>
+                </div>
                 <div class="popup-button-wrapper">
                     <a class="popup-button popup-button-download" href="">Загрузить логотип</a>
                     <a class="popup-button popup-button-orange" href="">Отправить сообщение</a>
                 </div>
             <?php } else if($params['popup-state'] === 'request a call') { ?>
                 <p class="popup_header">Заказать звонок</p>
-                <divl class="popup_input-wrapper">
+                <div class="popup_input-wrapper">
                     <input class="popup-input" type="text" placeholder="Ваше имя">
                     <input class="popup-input" type="text" placeholder="Контактный телефон">
-                </divl>
+                </div>
                 <div class="popup-button-wrapper popup-button-right">
                     <a class="popup-button popup-button-orange" href="">Отправить</a>
+                </div>
+            <?php } else if($params['popup-state'] === 'city') { ?>
+                <p class="popup_header">Выберите город</p>
+                <div class="popup_input-wrapper">
+                    <input class="popup-input" type="text" placeholder="Город">
                 </div>
             <?php } ?>
         </div>
@@ -42,3 +47,4 @@
 
 <?php popup(['popup-state' => 't-shirt printing']); ?>
 <?php popup(['popup-state' => 'request a call']); ?>
+<?php popup(['popup-state' => 'city']); ?>

@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/products/products.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 
 <div class="container-width">
 
