@@ -62,6 +62,34 @@
                         </select>
                     </div>
                 </div>
+
+
+                <div class="product_params_title">
+                    Вид печати
+                    <div class="product_params_select-wrapper">
+                        <select class="product_params-inputs">
+                            <option class="product_params-options" value="">не важно</option>
+                            <option class="product_params-options" value="">44 RU / M</option>
+                            <option class="product_params-options" value="">46 RU / L</option>
+                            <option class="product_params-options" value="">48 RU / XL</option>
+                            <option class="product_params-options" value="">50 RU / XL</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="product_params_title">
+                    Выберите цвет
+                    <div class="product_params_select-wrapper">
+                        <select class="product_params-inputs">
+                            <option class="product_params-options" value="">серый</option>
+                            <option class="product_params-options" value="">белый</option>
+                            <option class="product_params-options" value="">розовый</option>
+                            <option class="product_params-options" value="">коричневый</option>
+                            <option class="product_params-options" value="">синий</option>
+                        </select>
+                    </div>
+                </div>
+
+
                 <div class="product_params_title">
                     Детали
                     <div class="product_params_checkbox">

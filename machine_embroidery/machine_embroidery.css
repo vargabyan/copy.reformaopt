@@ -1,0 +1,163 @@
+body {
+    font-family: Manrope;
+    background: #F3F3F8;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container-width {
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+.breadcrumb_items {
+    margin-top: -30px;
+}
+
+
+.showcase {
+    margin-top: 120px;
+}
+
+
+.machine-embroidery {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.machine-embroidery_top-block {
+    display: flex;
+    gap: 37px;
+}
+
+.machine-embroidery_img {
+    max-width: 575px;
+    max-height: 333px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.machine-embroidery_params-wrapper {
+    max-width: 545px;
+}
+
+.machine-embroidery_header {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: -10px;
+}
+
+.machine-embroidery_description {
+    color: #86869A;
+    font-size: 20px;
+    line-height: 130%;
+    margin-top: 20px;
+}
+
+.machine-embroidery_price {
+    font-size: 35px;
+    line-height: 130%;
+    margin-top: 46px;
+}
+
+.machine-embroidery_order-button {
+    width: min-content;
+    height: min-content;
+    padding: 12px 37px 12px 38px;
+    border-radius: 30px;
+    background: #FF6E1D;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    display: block;
+    margin-top: 10px;
+}
+
+.machine-embroidery_order-button:hover {
+    padding: 12px 43px 12px 44px;
+}
+
+.machine-embroidery_characteristic {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    color: #86869A;
+}
+
+.characteristic_menu-wrapper {
+    display: flex;
+    gap: 27px;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    line-height: 130%;
+}
+
+.characteristic_menu_item {
+    list-style-type: none;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+.menu_item-active {
+    color: black;
+    border-bottom: solid 4px #FF6E1D;
+    border-radius: 2px;
+}
+
+.characteristic_hidden-item {
+    display: none;
+    font-size: 20px;
+    line-height: 130%;
+    max-width: 879px;
+}
+
+.hidden-item-active {
+    display: block;
+}
+
+.for-price {
+    max-width: 1180px;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: #86869A;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.for-price_items-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.for-price_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: center;
+    border-bottom: solid 1px #CBCBDA;
+}
+
+.for-price_item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.footer {
+    margin-top: 120px !important;
+}
