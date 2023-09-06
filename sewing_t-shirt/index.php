@@ -10,7 +10,8 @@ breadcrumb([['url' => '/printing_clothing_and_textiles', 'pageName' => 'Поши
 ?>
 
 <?php
-require(__DIR__ . '/../order_products/index.php')
+require(__DIR__ . '/../order_products/index.php');
+order_product(['pageName' => '/sewing_t-shirt']);
 ?>
 
 <?php
