@@ -97,12 +97,16 @@ breadcrumb([['url' => 'tailoring_wholesale', 'pageName' => 'Пошив одеж�
                     </li>
                 </ul>
             </div>
-                    <div class="tailoring-wholesale-showcase">
-                        <?php
-                            require(__DIR__ . '/../products/index.php');
-            //                pr(['header' => '', 'grid' => 15]);
-                        ?>
-                    </div>
+            <div class="tailoring-wholesale-showcase">
+                <?php
+                    require(__DIR__ . '/../products/index.php');
+                    products([ 'grid' => 15]);
+                ?>
+
+                <?php
+                require(__DIR__ . '/../seo/index.php')
+                ?>
+            </div>
         </div>
     </div>
 

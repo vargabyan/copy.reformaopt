@@ -73,46 +73,69 @@ require(__DIR__ . '/../navigation/index.php');
 
 <div class="container-width">
 
-    <?php
-    require(__DIR__ . '/../products/index.php');
-    ?>
-
-    <?php
-    require(__DIR__ . '/../services/index.php');
-    ?>
-
-    <?php
-    require(__DIR__ . '/../print_technologies/component_print_technologies.php');
-    ?>
-
-    <?php
-    require(__DIR__ . '/../guarantee/index.php');
-    ?>
-
-    <?php
-    require(__DIR__ . '/../reviews/component-reviews.php');
-    ?>
-
-    <?php
-        require(__DIR__ . '/../help/index.php');
-    ?>
-
-    <?php
-    require(__DIR__ . '/../map/index.php');
-    ?>
-
-    <div class="SEO">
-        <p class="SEO_header">SEO текст</p>
-        <div class="SEO_container">
-            SEO—статья – это текст, оптимизированный под определенный список запросов, основной целью которого является
-            занятие ведущих позиций по ним. Он должен быть написан с учётом требований, предъявляемых поисковыми
-            системами и ориентированным на пользователей. Он должен быть написан с учётом требований, предъявляемых
-            поисковыми системами
+    <div class="products_showcase">
+        <p class="products_showcase_header">Наша продукция</p>
+        <div class="products_showcase_filter" data-products-ckeckbox>
+            <div class="products_showcase_filter_item products_showcase_active">
+                Пошив и производство футболок
+            </div>
+            <?php for ($j = 0; $j < 4; $j++) { ?>
+                <div class="products_showcase_filter_item">
+                    Сорочки на заказ
+                </div>
+                <div class="products_showcase_filter_item">
+                    Пошив толстовок оптом
+                </div>
+            <?php } ?>
         </div>
-        <button class="SEO_button">Читать подробнее</button>
+
+        <div class="swiper products_showcase_swiper">
+            <div class="swiper-wrapper">
+                <?php
+                require(__DIR__ . '/../products/index.php');
+                for ($j = 0; $j < 8; $j++) { ?>
+                    <div class="swiper-slide">
+                        <?php
+                        products(['grid' => 1]);
+                        ?>
+                    </div>
+                <?php } ?>
+            </div>
+            <div class="products_showcase_swiper_button-prev products_showcase_swiper_button"></div>
+            <div class="products_showcase_swiper_button-next products_showcase_swiper_button"></div>
+        </div>
+
     </div>
 
 </div>
+
+<?php
+require(__DIR__ . '/../services/index.php');
+?>
+
+<?php
+require(__DIR__ . '/../print_technologies/component_print_technologies.php');
+?>
+
+<?php
+require(__DIR__ . '/../guarantee/index.php');
+?>
+
+<?php
+require(__DIR__ . '/../reviews/component-reviews.php');
+?>
+
+<?php
+require(__DIR__ . '/../help/index.php');
+?>
+
+<?php
+require(__DIR__ . '/../map/index.php');
+?>
+
+<?php
+require(__DIR__ . '/../seo/index.php');
+?>
 
 <?php
 require(__DIR__ . '/../footer/index.php');

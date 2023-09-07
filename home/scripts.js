@@ -39,3 +39,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 })
+
+const products_showcases_swiper = new Swiper('.products_showcase_swiper', {
+    direction: 'horizontal',
+    loop: true,
+
+    navigation: {
+        nextEl: '.products_showcase_swiper_button-next',
+        prevEl: '.products_showcase_swiper_button-prev',
+    },
+
+    slidesPerView: 4,
+});

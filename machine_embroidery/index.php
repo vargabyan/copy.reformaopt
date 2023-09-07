@@ -28,12 +28,12 @@ require(__DIR__ . '/../breadcrumb/index.php');
         </div>
         <div class="machine-embroidery_characteristic">
             <ul class="characteristic_menu-wrapper">
-                <li class="characteristic_menu_item item-creation">Процесс создания</li>
+                <li class="characteristic_menu_item item-creation menu_item-active">Процесс создания</li>
                 <li class="characteristic_menu_item item-usage">Использование</li>
                 <li class="characteristic_menu_item item-advantages">Преимущества</li>
-                <li class="characteristic_menu_item item-price menu_item-active">Цены</li>
+                <li class="characteristic_menu_item item-price">Цены</li>
             </ul>
-            <div class="characteristic_hidden-item for-creation">
+            <div class="characteristic_hidden-item for-creation  hidden-item-active">
                 Компьютерная вышивка начинаются ссоздания дизайна накомпьютере, который затем загружаются ввышивальную
                 машину. Вышивальная машина использует нити разных цветов, чтобысоздать узор наткани вышивки, следуя
                 инструкциям, заданным вдизайне позаказу. Каждый шовсоздаётся автоматически исвысокой точностью,
@@ -50,7 +50,7 @@ require(__DIR__ . '/../breadcrumb/index.php');
                 вышивки, следуя инструкциям, заданным вдизайне позаказу. Каждый шовсоздаётся автоматически исвысокой
                 точностью, чтопозволяет создавать сложные икрасочные дизайны логотипам вещей иразному виду текстиля.
             </div>
-            <div class="characteristic_hidden-item for-price hidden-item-active">
+            <div class="characteristic_hidden-item for-price">
                 <div class="for-price_items-wrapper">
                     <div class="for-price_row border-none">
                         <div class="for-price_col for-price_col-header">

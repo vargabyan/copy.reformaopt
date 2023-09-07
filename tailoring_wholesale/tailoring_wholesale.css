@@ -24,8 +24,9 @@ a {
     line-height: 120%;
 }
 
-.tailoring-wholesale_conten {
+.tailoring-wholesale_content {
     display: flex;
+    gap: 30px;
 }
 
 .tailoring-wholesale_filter_wrapper {
@@ -45,6 +46,7 @@ a {
     line-height: 140%;
     color: #A9A9C1;
     margin-top: 30px;
+    height: max-content;
 }
 
 .tailoring-wholesale_filter_item {
@@ -75,4 +77,9 @@ a {
 
 .tailoring-wholesale_filter_item_dropdown-item:hover {
     color: #000;
+}
+
+.tailoring-wholesale-showcase {
+    max-width: 876px;
+    margin-top: 30px;
 }
