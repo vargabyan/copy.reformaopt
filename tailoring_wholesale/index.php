@@ -99,9 +99,22 @@ breadcrumb([['url' => 'tailoring_wholesale', 'pageName' => 'Пошив одеж�
             </div>
             <div class="tailoring-wholesale-showcase">
                 <?php
-                    require(__DIR__ . '/../products/index.php');
-                    products([ 'grid' => 15]);
+                require(__DIR__ . '/../products/index.php');
+                products(['grid' => 15]);
                 ?>
+
+                <?php $link = 1; ?>
+                <div class="pagination">
+                    <ul class="pagination_item-wrapper">
+                        <li class="pagination_item"><a class="pagination_link pagination_prev" href="page=<?php echo $link - 1 ?>"></a></li>
+                        <li class="pagination_item pagination_item-active"><a class="pagination_link" href="page=<?php echo $link ?>"><?php echo $link ?></a></li>
+                        <li class="pagination_item"><a class="pagination_link" href="page=<?php echo $link ?>"><?php echo $link ?></a></li>
+                        ...
+                        <li class="pagination_item"><a class="pagination_link" href="page=<?php echo $link ?>"><?php echo $link ?></a></li>
+                        <li class="pagination_item"><a class="pagination_link" href="page=<?php echo $link ?>"><?php echo $link ?></a></li>
+                        <li class="pagination_item"><a class="pagination_link pagination_next" href="page=<?php echo $link + 1 ?>"></a></li>
+                    </ul>
+                </div>
 
                 <?php
                 require(__DIR__ . '/../seo/index.php')

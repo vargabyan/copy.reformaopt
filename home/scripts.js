@@ -50,4 +50,5 @@ const products_showcases_swiper = new Swiper('.products_showcase_swiper', {
     },
 
     slidesPerView: 4,
+    slidesPerGroup: 4
 });
