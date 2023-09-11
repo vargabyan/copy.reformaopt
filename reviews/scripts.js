@@ -1,14 +1,31 @@
-const reviews_swiper = new Swiper('.reviews_swiper', {
-    direction: 'horizontal',
-    loop: true,
+document.addEventListener('DOMContentLoaded', () => {
+    let slidesPerView = 4;
 
-    navigation: {
-        nextEl: '.reviews_swiper-button-prev',
-        prevEl: '.reviews_swiper-button-next',
-    },
+    function action() {
+        if (window.innerWidth < 786) {
 
-    slidesPerView: 2,
-});
+            slidesPerView = 1;
+        } else {
+
+            slidesPerView = 2;
+        }
+    }
+
+    action()
+    window.addEventListener('resize', action);
+
+    const reviews_swiper = new Swiper('.reviews_swiper', {
+        direction: 'horizontal',
+        loop: true,
+
+        navigation: {
+            nextEl: '.reviews_swiper-button-prev',
+            prevEl: '.reviews_swiper-button-next',
+        },
+
+        slidesPerView,
+    });
+})
 
 document.addEventListener('click', (e) => {
     const dataReviewsButtonReadeMore = e.target.closest('[data-reviews-button-reade-more]');

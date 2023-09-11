@@ -228,6 +228,10 @@ a {
     line-height: 120%;
 }
 
+.products_showcase_header span {
+    display: none;
+}
+
 .products_showcase_filter {
     margin-top: 30px;
     display: flex;
@@ -243,6 +247,7 @@ a {
     font-weight: 600;
     line-height: 140%;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .products_showcase_active {

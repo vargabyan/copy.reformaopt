@@ -1,11 +1,11 @@
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
-<link rel="stylesheet" href="/home/home.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <?php
-require(__DIR__ . '/../navigation/index.php');
-?>
+//require(__DIR__ . '/../navigation/index.php');
+//?>
 
 <div class="container-width">
 
@@ -74,8 +74,8 @@ require(__DIR__ . '/../navigation/index.php');
 <div class="container-width">
 
     <div class="products_showcase">
-        <p class="products_showcase_header">Наша продукция</p>
-        <div class="products_showcase_filter" data-products-ckeckbox>
+        <p class="products_showcase_header">Наша продукция <span>Листай</span></p>
+        <div class="products_showcase_filter" data-products-showcase-ckeckbox>
             <div class="products_showcase_filter_item products_showcase_active">
                 Пошив и производство футболок
             </div>
@@ -126,19 +126,22 @@ require(__DIR__ . '/../reviews/component-reviews.php');
 ?>
 
 <?php
-require(__DIR__ . '/../help/index.php');
-?>
-
+//require(__DIR__ . '/../help/index.php');
+//?>
+<!---->
 <?php
-require(__DIR__ . '/../map/index.php');
-?>
-
+//require(__DIR__ . '/../map/index.php');
+//?>
+<!---->
 <?php
-require(__DIR__ . '/../seo/index.php');
-?>
-
+//require(__DIR__ . '/../seo/index.php');
+//?>
+<!---->
 <?php
-require(__DIR__ . '/../footer/index.php');
-?>
+//require(__DIR__ . '/../footer/index.php');
+//?>
 
+
+<link rel="stylesheet" href="/home/home.css">
+<link rel="stylesheet" href="/home/home_mobile.css">
 <script src="./scripts.js"></script>
