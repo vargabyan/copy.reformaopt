@@ -126,20 +126,20 @@ require(__DIR__ . '/../reviews/component-reviews.php');
 ?>
 
 <?php
-//require(__DIR__ . '/../help/index.php');
-//?>
-<!---->
+require(__DIR__ . '/../help/index.php');
+?>
+
 <?php
-//require(__DIR__ . '/../map/index.php');
-//?>
-<!---->
+require(__DIR__ . '/../map/index.php');
+?>
+
 <?php
-//require(__DIR__ . '/../seo/index.php');
-//?>
-<!---->
+require(__DIR__ . '/../seo/index.php');
+?>
+
 <?php
-//require(__DIR__ . '/../footer/index.php');
-//?>
+require(__DIR__ . '/../footer/index.php');
+?>
 
 
 <link rel="stylesheet" href="/home/home.css">

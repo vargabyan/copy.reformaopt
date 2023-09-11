@@ -33,7 +33,8 @@ a {
 }
 
 .map-card {
-    width: 1181px;
+    max-width: 1181px;
+    width: 100%;
     height: 553px;
 
 }

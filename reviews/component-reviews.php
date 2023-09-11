@@ -55,8 +55,8 @@
 
         <div class="reviews_content_footer">
             <div class="wrapper-reviews-buttons">
-                <a class="button-leave-review" href="">Оставить отзыв</a>
-                <a class="button-reade-all-reviews" href="">Читать все отзывы (30)</a>
+                <a class="button-leave-review reviews-button" href="">Оставить отзыв</a>
+                <a class="button-reade-all-reviews reviews-button" href=""><span>Читать</span> все отзывы <span>(30)</span></a>
             </div>
             <div class="wrapper-slider-buttons">
                 <div class="reviews_swiper-button-prev reviews_swiper-buttons"></div>

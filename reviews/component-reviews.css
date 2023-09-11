@@ -183,42 +183,35 @@ button[data-reviews-button-reade-more]:after {
     width: 100%;
 }
 
-.button-leave-review {
-    max-width: 216px;
-    display: flex;
-    padding: 12px 46px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    background: #FF6E1D;
-    color: #FFF;
-    text-align: center;;
+.reviews-button {
+    white-space: nowrap;
+    text-align: center;
     font-size: 16px;
     font-weight: 600;
     line-height: 140%;
-}
-
-.button-leave-review:hover {
-    padding: 12px 52px;
-}
-
-.button-reade-all-reviews {
-    max-width: 216px;
+    max-width: 184px;
     display: flex;
     padding: 12px 16px;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    border: 1px solid #FF6E1D;
-    color: #FF6E1D;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 140%;
+    width: 100%;
 }
 
-.button-reade-all-reviews:hover {
+.reviews-button:hover {
     padding: 12px 22px;
+}
+
+.button-leave-review {
+    background: #FF6E1D;
+    color: #FFF;
+}
+
+.button-reade-all-reviews {
+    border: 1px solid #FF6E1D;
+    color: #FF6E1D;
+    display: flex;
+    gap: 4px;
 }
 
 .wrapper-slider-buttons {

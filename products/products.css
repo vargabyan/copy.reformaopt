@@ -17,6 +17,7 @@ a {
     gap: 30px;
     flex-wrap: wrap;
     width: auto;
+    justify-content: center;
 }
 
 .products_item {

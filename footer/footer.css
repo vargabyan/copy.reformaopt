@@ -37,6 +37,8 @@ a {
 .footer_item {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 13px;
     align-items: center;
     justify-content: space-between;
 }
