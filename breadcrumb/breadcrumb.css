@@ -25,12 +25,14 @@ a {
     font-size: 12px;
     line-height: 20px;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .breadcrumb_item {
     display: flex;
     gap: 8px;
     align-items: center;
+    white-space: nowrap;
 }
 
 .breadcrumb_arrow:after {

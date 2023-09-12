@@ -1,0 +1,33 @@
+@media (max-width: 786px) {
+    .questions {
+        margin-top: 80px;
+        gap: 20px;
+    }
+
+    .questions_header {
+        font-size: 24px;
+        line-height: 110%;
+    }
+
+    .questions_item {
+        padding: 16px;
+    }
+
+    .questions_content-question {
+        font-size: 20px;
+    }
+
+    .questions_content-arrow-up:after {
+        filter: invert(1);
+    }
+
+    .questions_content-arrow-down:after {
+        filter: invert(1);
+    }
+
+    .questions_content-answer {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+}

@@ -1,0 +1,29 @@
+@media (max-width: 786px) {
+
+    .showcase_header {
+        font-size: 24px;
+    }
+
+    .showcase_items {
+        margin-top: 20px;
+    }
+
+    .showcase_item {
+        padding: 16px 16px 24px 16px;
+    }
+
+    .showcase_title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .showcase_item_button-wrapper {
+        margin-top: 10px;
+    }
+
+    .showcase_item_button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}

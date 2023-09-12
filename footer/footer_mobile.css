@@ -1,0 +1,110 @@
+@media (max-width: 786px) {
+    .footer {
+        margin-top: 40px;
+        padding-top: 41px;
+        padding-bottom: 40px;
+        border-radius: 20px;
+    }
+
+    .footer_contacts {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 110%;
+    }
+
+    .footer_item {
+        justify-content: space-between;
+    }
+
+    .footer_phone {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_email {
+        order: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_write-to-director, .footer_leave-reviews {
+        font-size: 14px;
+        font-weight: 500;
+        white-space: nowrap;
+        width: max-content;
+        margin-top: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer_write-to-director {
+        order: 3;
+        width: 184px;
+    }
+
+    .footer_leave-reviews {
+        order: 4;
+        width: 146px;
+    }
+
+    .footer-content {
+        margin-top: 40px;
+        gap: 30px;
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
+    .footer_navigation {
+        flex-direction:  column-reverse;
+        gap: 6px;
+        white-space: nowrap;
+    }
+
+    .wrapper-footer-logo {
+        font-size: 0;
+    }
+
+    .footer_logo {
+        filter: grayscale(60%) opacity(0.4) hue-rotate(302deg);
+    }
+
+    .wrapper-footer-logo:hover .footer_logo {
+        filter: grayscale(60%) opacity(0.4) hue-rotate(302deg);
+    }
+
+    .footer_navigation_item {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .working-time {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .working-days {
+        display: block;
+        text-align: center;
+        padding: 6px 16px;
+        font-size: 14px;
+        line-height: 140%;
+        white-space: nowrap;
+    }
+
+    .working-days span {
+        text-align: center;
+        font-size: 14px;
+        line-height: 140%
+    }
+
+
+    .rules {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        column-gap: 30px;
+        margin-top: 20px;
+    }
+}

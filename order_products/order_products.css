@@ -28,6 +28,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
 }
 
 .order-product_swiper {

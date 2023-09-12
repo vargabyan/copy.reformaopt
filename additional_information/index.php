@@ -1,5 +1,8 @@
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/additional_information/additional_information.css">
+<link rel="stylesheet" href="/additional_information/additional_information_mobile.css">
 
 <div class="container-width">
 
@@ -34,5 +37,9 @@
         </p>
 
     </div>
+    <div class="additional-information_opacity-text"></div>
+    <button class="additional-information_button-learn-more">Подробнее</button>
 
 </div>
+
+<script src="/additional_information/scripts.js"></script>

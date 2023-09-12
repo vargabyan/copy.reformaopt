@@ -1,8 +1,11 @@
 <?php function order_product($params)
 { ?>
 
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/fonts.css">
     <link rel="stylesheet" href="/order_products/order_products.css">
+    <link rel="stylesheet" href="/order_products/order_products_mobile.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
@@ -20,9 +23,9 @@
                             </div>
                         <?php } ?>
                     </div>
-                    <div class="order-product_swiper-button-prev order-product_swiper-buttons"></div>
-                    <div class="order-product_swiper-button-next order-product_swiper-buttons"></div>
                 </div>
+                <div class="order-product_swiper-button-prev order-product_swiper-buttons"></div>
+                <div class="order-product_swiper-button-next order-product_swiper-buttons"></div>
                 <div class="swiper order-product_swiper-thumbnail">
                     <div class="swiper-wrapper">
                         <?php for ($i = 0; $i < 6; $i++) { ?>

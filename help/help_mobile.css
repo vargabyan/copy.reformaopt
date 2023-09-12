@@ -1,0 +1,58 @@
+@media (max-width: 786px) {
+    .help {
+        margin-top: 140px;
+        flex-direction: column;
+    }
+
+    .help-header {
+        color: #A9A9C1;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 110%
+    }
+
+    .help-header span {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 110%
+    }
+
+    .contact-item {
+        display: none;
+    }
+
+    .form-item::placeholder {
+        color: #A9A9C1;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    .form-item {
+        padding: 9px 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    .form-item::placeholder {
+        color: #A9A9C1;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    .form-textarea {
+        height: 134px;
+    }
+
+    .form-submit {
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .form-submit:hover {
+        padding: 10px 30px;
+    }
+}

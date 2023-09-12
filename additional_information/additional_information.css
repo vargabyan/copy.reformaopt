@@ -43,3 +43,11 @@ a {
     flex-direction: column;
     gap: 14px;
 }
+
+.additional-information_opacity-text {
+    display: none;
+}
+
+.additional-information_button-learn-more {
+    display: none;
+}

@@ -31,6 +31,10 @@ li.navbar_item:nth-last-child(2) {
     margin-bottom: 40px;
 }
 
+.navigation-toggle {
+    display: none;
+}
+
 .navbar_wrapper-items {
     display: flex;
     gap: 16px;

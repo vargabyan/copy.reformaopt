@@ -1,0 +1,109 @@
+@media (max-width: 786px) {
+    .order-product {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .order-product_swiper-wrapper {
+        margin-top: 33px;
+    }
+
+    .order-product_swiper {
+        max-width: 340px;
+        height: 327px;
+    }
+
+    .order-product_swiper_img {
+        border-radius: 24px;
+    }
+
+    .order-product_swiper-buttons {
+        top: unset;
+        bottom: 27px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .order-product_swiper-button-prev {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cellipse cx='13' cy='13' rx='13' ry='13' transform='matrix(1 0 0 -1 0 26)' fill='white'/%3E%3Cpath d='M14.1309 17.5215L10.1743 12.9997L14.1309 8.47801' stroke='%23CBCBDA' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+
+    .order-product_swiper-button-prev:hover {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cellipse cx='13' cy='13' rx='13' ry='13' transform='matrix(1 0 0 -1 0 26)' fill='white'/%3E%3Cpath d='M14.1309 17.5215L10.1743 12.9997L14.1309 8.47801' stroke='%23CBCBDA' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+
+    .order-product_swiper-button-next {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cellipse cx='13' cy='13' rx='13' ry='13' transform='rotate(-180 13 13)' fill='white'/%3E%3Cpath d='M11.8691 17.5215L15.8257 12.9997L11.8691 8.47801' stroke='%23CBCBDA' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+
+    .order-product_swiper-button-next:hover {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cellipse cx='13' cy='13' rx='13' ry='13' transform='rotate(-180 13 13)' fill='white'/%3E%3Cpath d='M11.8691 17.5215L15.8257 12.9997L11.8691 8.47801' stroke='%23CBCBDA' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+
+    .order-product_swiper-thumbnail {
+        max-width: 340px;
+        height: 79px;
+    }
+
+    .order-product_swiper-thumbnail .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-product_swiper-thumbnail_img {
+        height: 79px;
+        max-width: 79px;
+        border-radius: 14px;
+    }
+
+
+    .order-product_header {
+        font-size: 20px;
+        line-height: 130%;
+        position: absolute;
+        top: 0;
+    }
+
+    .order-product_params {
+        gap: 10px;
+    }
+
+    .product_params_title {
+        max-width: 100%;
+    }
+
+    .params_checkbox-active {
+        flex-direction: row-reverse;
+    }
+
+    .params_checkbox_item-text {
+        max-width: 270px;
+    }
+
+    .product_pips-value {
+        width: 256px;
+    }
+
+    .order-product_price {
+        font-size: 28px;
+    }
+
+    .order-product_button-order {
+        width: unset;
+        text-align: center;
+        padding: 9px 30px;
+    }
+
+    .order-information {
+        margin-top: 80px;
+    }
+
+    .order-information_header {
+        font-size: 20px;
+    }
+
+    .order-information-text {
+        font-size: 16px;
+        line-height: 140%
+    }
+}

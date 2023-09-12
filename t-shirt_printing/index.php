@@ -1,12 +1,10 @@
-<link rel="stylesheet" href="/t-shirt_printing/t-shirt_printing.css">
-
 <?php
-require(__DIR__ . '/../navigation/index.php')
-?>
+//require(__DIR__ . '/../navigation/index.php')
+//?>
 
 <?php
 require(__DIR__ . '/../breadcrumb/index.php');
-breadcrumb([['url' => 'printing_clothing_and_textiles', 'page' => 'Печать на одежде и текстиле']]);
+breadcrumb([['url' => 'printing_clothing_and_textiles', 'pageName' => 'Печать на одежде и текстиле']]);
 ?>
 
 <?php
@@ -35,9 +33,17 @@ require(__DIR__ . '/../printing_services/index.php');
 printing_services(['header' => 'Услуги печати', 'grid' => 3]);
 ?>
 
-<?php
-require(__DIR__ . '/../products/index.php');
-?>
+<div class="container-width">
+
+    <div class="products-wrapper">
+        <p class="products-wrapper_header">Наша продукция</p>
+        <?php
+        require(__DIR__ . '/../products/index.php');
+        products(['grid' => 4]);
+        ?>
+    </div>
+
+</div>
 
 <?php
 require(__DIR__ . '/../guarantee/index.php');
@@ -55,3 +61,4 @@ require(__DIR__ . '/../map/index.php')
 require(__DIR__ . '/../footer/index.php')
 ?>
 
+<link rel="stylesheet" href="/t-shirt_printing/t-shirt_printing.css">
