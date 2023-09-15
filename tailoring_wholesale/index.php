@@ -2,10 +2,8 @@
 <link rel="stylesheet" href="/fonts.css">
 
 <?php
-//
-//require(__DIR__ . '/../navigation/index.php');
-//
-//?>
+require(__DIR__ . '/../navigation/index.php');
+?>
 
 
 <?php

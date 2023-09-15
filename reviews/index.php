@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="/reviews/reviews.css">
 
 <?php
-//require(__DIR__ . '/../navigation/index.php');
-//?>
+require(__DIR__ . '/../navigation/index.php');
+?>
 
 <?php
 require(__DIR__ . '/../breadcrumb/index.php');

@@ -149,6 +149,22 @@
     .for-price_items-wrapper-mobile {
         display: flex;
         flex-direction: column;
+        gap: 40px;
+        border-bottom: solid 1px #CBCBDA;
+    }
+
+    .for-price_price-mobile {
+        color: #000;
+        font-size: 20px;
+        line-height: 130%;
+        padding-bottom: 16px;
+    }
+
+    .for-price_header-mobile {
+        color: #86869A;
+        font-size: 16px;
+        line-height: 140%;
+        padding: 5px 0;
     }
 
     .for-price_row-mobile {
@@ -172,8 +188,6 @@
         border-right: solid 1px #CBCBDA;
         align-items: center;
         width: 100%;
-        padding-top: 22px;
-        padding-bottom: 22px;
     }
 
     .for-price_row-mobile {
@@ -184,6 +198,17 @@
 
     .for-price_row-mini-mobile .for-price_col-mobile {
         border: none;
+    }
+
+    .border-none {
+        border: none;
+    }
+
+    .for-price_row-colors {
+        color: #86869A;
+        font-size: 12px;
+        line-height: 140%;
+        padding: 8px 0;
     }
 
 }

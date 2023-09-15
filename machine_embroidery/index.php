@@ -1,10 +1,11 @@
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
 
 
 <?php
-//require(__DIR__ . '/../navigation/index.php');
-//?>
+require(__DIR__ . '/../navigation/index.php');
+?>
 
 <?php
 require(__DIR__ . '/../breadcrumb/index.php');
@@ -117,58 +118,60 @@ require(__DIR__ . '/../breadcrumb/index.php');
 
                 <div class="for-price_items-wrapper-mobile">
                     <?php for ($i = 0; $i < 3; $i++) { ?>
-                        <div class="for-price_col-mobile">
-                            <p class="for-price_header-mobile">Размер А5</p>
-                        </div>
-                        <div class="for-price_row-mobile border-none">
-                            <div class="for-price_col-mobile for-price_col-header">
-                                <p class="for-price_header">Тираж</p>
+                        <div>
+                            <div class="for-price_col-mobile border-none">
+                                <p class="for-price_price-mobile ">Размер А5</p>
                             </div>
-                            <div class="for-price_col-mobile for-price_col-header border-none">
-                                <p class="for-price_header">Цена печати в рублях за 1 шт.</p>
-                            </div>
-                        </div>
-                        <div class="for-price_row-mobile">
-                            <div class="for-price_col-mobile"></div>
-                            <div class="for-price_col-mobile padding-none border-none">
-                                <div class="for-price_row-mini-mobile">
-                                    <p>1 цвет</p>
-                                    <p>2 цвета</p>
-                                    <p>3 цвета</p>
+                            <div class="for-price_row-mobile">
+                                <div class="for-price_col-mobile for-price_col-header">
+                                    <p class="for-price_header-mobile">Тираж</p>
+                                </div>
+                                <div class="for-price_col-mobile for-price_col-header border-none">
+                                    <p class="for-price_header-mobile">Цена печати за 1 шт.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="for-price_row-mobile response-data">
-                            <div class="for-price_col-mobile">
-                                <p data-characteristic-col-text>до 50 шт</p>
-                                <p data-characteristic-col-text>от 50 до 99</p>
-                                <p data-characteristic-col-text>от 100 до 500</p>
-                                <p data-characteristic-col-text>от 501 до 1 000</p>
-                                <p data-characteristic-col-text>более 1000</p>
+                            <div class="for-price_row-mobile">
+                                <div class="for-price_col-mobile"></div>
+                                <div class="for-price_col-mobile border-none">
+                                    <div class="for-price_row-mini-mobile for-price_row-colors">
+                                        <p>1 цвет</p>
+                                        <p>2 цвета</p>
+                                        <p>3 цвета</p>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div class="for-price_col-mobile">
+                            <div class="for-price_row-mobile response-data">
                                 <div class="for-price_col-mobile">
-                                    <p data-characteristic-col-text>индивидуально</p>
+                                    <p data-characteristic-col-text>до 50 шт</p>
+                                    <p data-characteristic-col-text>от 50 до 99</p>
+                                    <p data-characteristic-col-text>от 100 до 500</p>
+                                    <p data-characteristic-col-text>от 501 до 1 000</p>
+                                    <p data-characteristic-col-text>более 1000</p>
                                 </div>
-                                <div class="for-price_row-mini-mobile">
-                                    <div class="for-price_col-mobile border-none">
-                                        <p data-characteristic-col-text>30</p>
-                                        <p data-characteristic-col-text>25</p>
-                                        <p data-characteristic-col-text>15</p>
-                                        <p data-characteristic-col-text>12</p>
+
+                                <div class="for-price_col-mobile border-none">
+                                    <div class="">
+                                        <p data-characteristic-col-text>индивидуально</p>
                                     </div>
-                                    <div class="for-price_col-mobile border-none" data-characteristic-col>
-                                        <p data-characteristic-col-text>40</p>
-                                        <p data-characteristic-col-text>34</p>
-                                        <p data-characteristic-col-text>23</p>
-                                        <p data-characteristic-col-text>19</p>
-                                    </div>
-                                    <div class="for-price_col-mobile border-none" data-characteristic-col>
-                                        <p data-characteristic-col-text>50</p>
-                                        <p data-characteristic-col-text>43</p>
-                                        <p data-characteristic-col-text>31</p>
-                                        <p data-characteristic-col-text>26</p>
+                                    <div class="for-price_row-mini-mobile">
+                                        <div class="for-price_col-mobile">
+                                            <p data-characteristic-col-text>30</p>
+                                            <p data-characteristic-col-text>25</p>
+                                            <p data-characteristic-col-text>15</p>
+                                            <p data-characteristic-col-text>12</p>
+                                        </div>
+                                        <div class="for-price_col-mobile" data-characteristic-col>
+                                            <p data-characteristic-col-text>40</p>
+                                            <p data-characteristic-col-text>34</p>
+                                            <p data-characteristic-col-text>23</p>
+                                            <p data-characteristic-col-text>19</p>
+                                        </div>
+                                        <div class="for-price_col-mobile" data-characteristic-col>
+                                            <p data-characteristic-col-text>50</p>
+                                            <p data-characteristic-col-text>43</p>
+                                            <p data-characteristic-col-text>31</p>
+                                            <p data-characteristic-col-text>26</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

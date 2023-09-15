@@ -4,8 +4,8 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <?php
-//require(__DIR__ . '/../navigation/index.php');
-//?>
+require(__DIR__ . '/../navigation/index.php');
+?>
 
 <div class="container-width">
 

@@ -1,19 +1,73 @@
-@media (max-width: 786px) {
+@media (max-width: 768px) {
     .navbar {
+
+        overflow: hidden;
+        background: white;
+        border-radius: 30px;
+        margin: 12px auto 50px auto;
+        height: min-content;
+        max-width: 340px;
+    }
+
+    .navbar-toggle-scroll-toggle {
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
         bottom: 0;
-        flex-direction: column;
-        padding: 0 5% 0 5%;
-        width: 90%;
-        height: 100%;
-        margin: 0;
-        overflow: hidden;
-        scale: none;
-        background: white;
         z-index: 29;
+
+    }
+
+    .navbar-toggle {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 29;
+        flex-direction: column;
+        margin: 0;
+        border-radius: unset;
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        padding: 0 20px;
+
+    }
+
+    .navbar_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 16px;
+    }
+
+    .navbar_wrapper-toggle {
+        display: grid;
+        justify-content: space-between;
+        box-shadow: unset;
+        padding: 20px 0;
+        grid-template-areas:
+            'a b'
+            'c c'
+            'd d';
+    }
+
+    .navbar_wrapper-logo {
+        grid-area: a;
+    }
+
+    .navbar_select-city {
+        grid-area: d;
+    }
+
+    .navbar_wrapper-items {
+        grid-area: c;
+    }
+
+    .navigation-toggle {
+        grid-area: b;
     }
 
     .navigation-toggle {
@@ -22,8 +76,15 @@
         width: 24px;
         height: 14px;
         background-image: url("data:image/svg+xml,%3Csvg width='24' height='14' viewBox='0 0 24 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='2' rx='1' fill='black'/%3E%3Crect x='6' y='6' width='18' height='2' rx='1' fill='black'/%3E%3Crect y='12' width='24' height='2' rx='1' fill='black'/%3E%3C/svg%3E%0A");
-        /*border: none;*/
-        /*background: unset;*/
+        border: none;
+    }
+
+    .nav-toggle-close {
+        display: flex;
+        justify-self: end;
+        width: 15px;
+        height: 15px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' fill='none'%3E%3Cpath d='M2.572 14.5492C1.99255 15.1412 1.04286 15.1515 0.450806 14.572C-0.141245 13.9925 -0.151457 13.0429 0.427997 12.4508L5.40214 7.36853L0.693627 2.54814C0.114758 1.95551 0.125909 1.00583 0.718532 0.426961C1.31116 -0.151908 2.26084 -0.140757 2.83971 0.451866L7.5 5.2229L12.1603 0.451866C12.7392 -0.140757 13.6888 -0.151908 14.2815 0.426961C14.8741 1.00583 14.8852 1.95551 14.3064 2.54814L9.59786 7.36853L14.572 12.4508C15.1515 13.0429 15.1412 13.9925 14.5492 14.572C13.9571 15.1515 13.0075 15.1412 12.428 14.5492L7.5 9.51407L2.572 14.5492Z' fill='%23CBCBDA'/%3E%3C/svg%3E");
     }
 
     .navbar_wrapper-items {
@@ -32,6 +93,8 @@
         background: unset;
         box-shadow: unset;
         width: 100%;
+        padding-left: 0;
+        margin: 0;
     }
 
     .navbar_wrapper-logo {
@@ -54,12 +117,55 @@
         font-weight: 400;
     }
 
+    .order-call {
+        max-width: 95%;
+        margin-bottom: 38px;
+    }
 
-    .navigation-toggle-close {
+
+    .navigation-toggle-open {
         display: none;
     }
-    .navBar {
-        flex-direction: row-reverse;
-        align-items: baseline;
+
+    .mobile-action {
+        display: none;
     }
+
+    .mobile-action-active {
+        display: flex;
+    }
+
+    .body-toggle {
+        overflow: hidden;
+    }
+
+    .button-toggle {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar_items-wrapper {
+        box-shadow: none;
+        border-radius: unset;
+        max-height: unset;
+        margin: 0;
+    }
+
+    .navbar_dropdown {
+        position: unset;
+        display: none;
+    }
+
+    .navbar_dropdown-active {
+        display: block !important;
+    }
+
+    .button-toggle:link {
+        display: block;
+    }
+
+    .button-toggle:hover > .navbar_dropdown {
+        display: none;
+    }
+
 }

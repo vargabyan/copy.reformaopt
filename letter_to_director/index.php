@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="/letter_to_director/letter_to_director_mobile.css">
 
 <?php
-//require(__DIR__ . '/../navigation/index.php');
-//?>
+require(__DIR__ . '/../navigation/index.php');
+?>
 
 <?php
 require(__DIR__ . '/../breadcrumb/index.php');
