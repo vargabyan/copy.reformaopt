@@ -79,3 +79,10 @@ a {
 .letter-to-director_button:hover {
     padding: 12px 25px 12px 26px;
 }
+
+
+@media (max-width: 786px) {
+    .map {
+        margin-top: 140px !important;
+    }
+}

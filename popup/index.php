@@ -1,12 +1,12 @@
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/popup/popup.css">
+<link rel="stylesheet" href="/popup/popup_mobile.css">
 
 
-<?php function popup($params)
+<?php function popup_printing()
 { ?>
-
-
-    <?php if ($params['popup-state'] === 't-shirt printing') { ?>
     <div class="popup-wrapper">
         <div class="popup">
             <button class="popup_button-close" data-popup-button-close></button>
@@ -28,7 +28,10 @@
             </div>
         </div>
     </div>
-<?php } else if ($params['popup-state'] === 'request a call') { ?>
+<?php }
+
+function popup_call()
+{ ?>
     <div class="popup-wrapper">
         <div class="popup">
             <button class="popup_button-close" data-popup-button-close></button>
@@ -42,7 +45,10 @@
             </div>
         </div>
     </div>
-<?php } else if ($params['popup-state'] === 'city') { ?>
+<?php }
+
+function popup_city()
+{ ?>
     <div class="popup-wrapper">
         <div class="popup popup-city">
             <button class="popup_button-close" data-popup-button-close></button>
@@ -74,12 +80,27 @@
             </div>
         </div>
     </div>
-<?php } ?>
+<?php }
+
+function popup_city_mini()
+{ ?>
+    <div class="popup-city-mini">
+        <div class="popup-city-mini-row">
+            <p class="popup-city-mini_header">Ваш город Екатеринбург ?</p>
+            <button class="popup-city-mini_button-close" data-popup-city-mini-button-close></button>
+        </div>
+        <div class="popup-city-mini-row">
+            <a class="popup-city-mini-button popup-button-other" href="">Другой</a>
+            <a class="popup-city-mini-button popup-button-correct" href="">Верно</a>
+        </div>
+    </div>
 <?php } ?>
 
 
 <script src="/popup/scripts.js"></script>
 
-<?php popup(['popup-state' => 't-shirt printing']); ?>
-<?php popup(['popup-state' => 'request a call']); ?>
-<?php popup(['popup-state' => 'city']); ?>
+<?php popup_printing(); ?>
+<?php popup_call(); ?>
+<?php popup_city(); ?>
+<?php popup_city_mini(); ?>
+

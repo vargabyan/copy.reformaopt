@@ -198,6 +198,12 @@ p[data-characteristic-col-text]:hover {
     border-radius: 20px;
 }
 
+
+.for-price_items-wrapper-mobile {
+    display: none;
+}
+
+
 .border-none {
     border: none;
 }

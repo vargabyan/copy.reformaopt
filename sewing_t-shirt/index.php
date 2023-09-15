@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/sewing_t-shirt/sewing_t-shirt.css">
 
 <?php
 //require(__DIR__ . '/../navigation/index.php')
@@ -54,3 +53,7 @@ require(__DIR__ . '/../map/index.php')
 <?php
 require(__DIR__ . '/../footer/index.php')
 ?>
+
+
+<link rel="stylesheet" href="/sewing_t-shirt/sewing_t-shirt.css">
+

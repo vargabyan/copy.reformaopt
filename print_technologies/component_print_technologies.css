@@ -75,3 +75,9 @@ a {
 .technologies_item_footer .detail:hover {
     padding: 12px 35px 12px 36px;
 }
+
+@media (max-width: 786px) {
+    .help {
+        margin-top: 78px !important;
+    }
+}

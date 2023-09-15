@@ -43,35 +43,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    let slidesPerView = 4;
-    let slidesPerGroup = 4;
+    let products_showcases_swiper = null;
 
     function action() {
+
+        if (products_showcases_swiper) {
+            products_showcases_swiper.destroy()
+        }
+
         if (window.innerWidth < 786) {
 
-            slidesPerView = 2;
-            slidesPerGroup = 2;
+            products_showcases_swiper = new Swiper('.products_showcase_swiper', {
+                direction: 'horizontal',
+                loop: true,
+                navigation: {
+                    nextEl: '.products_showcase_swiper_button-next',
+                    prevEl: '.products_showcase_swiper_button-prev',
+                },
+                slidesPerView: 2,
+                slidesPerGroup: 2,
+            });
         } else {
 
-            slidesPerView = 4;
-            slidesPerGroup = 4;
+            products_showcases_swiper = new Swiper('.products_showcase_swiper', {
+                direction: 'horizontal',
+                loop: true,
+                navigation: {
+                    nextEl: '.products_showcase_swiper_button-next',
+                    prevEl: '.products_showcase_swiper_button-prev',
+                },
+                slidesPerView: 4,
+                slidesPerGroup: 4,
+            });
         }
     }
 
     action()
     window.addEventListener('resize', action);
-
-    const products_showcases_swiper = new Swiper('.products_showcase_swiper', {
-        direction: 'horizontal',
-        loop: true,
-
-        navigation: {
-            nextEl: '.products_showcase_swiper_button-next',
-            prevEl: '.products_showcase_swiper_button-prev',
-        },
-
-        slidesPerView,
-        slidesPerGroup,
-    });
 })
-

@@ -29,3 +29,6 @@ printing_services(['header' => 'Печать на одежде и текстил
 <?php
     require(__DIR__ . '/../footer/index.php');
 ?>
+
+
+<link rel="stylesheet" href="/printing_clothing_and_textiles/printing_clothing_and_textiles.css">

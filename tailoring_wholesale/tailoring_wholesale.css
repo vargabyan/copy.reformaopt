@@ -140,3 +140,47 @@ a {
     filter: brightness(0.5);
 }
 
+
+@media (max-width: 768px) {
+    .container-width {
+        max-width: 340px;
+        width: 100%;
+    }
+
+
+    .tailoring-wholesale-filter {
+        display: none;
+    }
+
+    .tailoring-wholesale_header {
+        font-size: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tailoring-wholesale-showcase {
+        margin-top: 0;
+    }
+
+    .products {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .products::-webkit-scrollbar {
+        display: none;
+    }
+
+    .products_item {
+        max-width: 160px;
+    }
+
+
+    .pagination {
+        display: flex;
+        justify-content: end;
+    }
+}

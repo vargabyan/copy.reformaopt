@@ -1,10 +1,12 @@
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/contacts/contacts.css">
+<link rel="stylesheet" href="/contacts/contacts_mobile.css">
 
 
 <?php
-require( __DIR__ . '/../navigation/index.php')
-?>
+//require( __DIR__ . '/../navigation/index.php')
+//?>
 
 <?php
 require( __DIR__ . '/../breadcrumb/index.php');
@@ -26,7 +28,7 @@ breadcrumb([['url' => '/contacts', 'pageName' => 'Контакты']]);
         <div class="contacts_content">
             <a class="contacts_content_tel" href="tel:73433020700">+7 (343) 302-07-00</a>
             <div class="contacts_information-block">
-                <div class="contacts_information-item map-icon">Россия, г. Екатеринбург ул. Новинская д. 2</div>
+                <div class="contacts_information-item map-icon"><span>Россия, г. </span>Екатеринбург ул. Новинская д. 2</div>
                 <div class="contacts_information-item clock-icon">пн-пт 09:00 - 18:00</div>
                 <div class="contacts_information-item clock-icon">reformaopt@yandex.ru</div>
             </div>

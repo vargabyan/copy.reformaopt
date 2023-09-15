@@ -1,9 +1,11 @@
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
 <link rel="stylesheet" href="/error_404/error_404.css">
+<link rel="stylesheet" href="/error_404/error_404_mobile.css">
 
 <?php
-require(__DIR__ . '/../navigation/index.php')
-?>
+//require(__DIR__ . '/../navigation/index.php')
+//?>
 
 <?php
 require(__DIR__ . '/../breadcrumb/index.php');

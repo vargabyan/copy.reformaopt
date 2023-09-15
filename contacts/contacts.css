@@ -253,3 +253,10 @@ a {
 .requisites_file-wrapper:hover .requisites_file_header {
     color: #000;
 }
+
+
+@media (max-width: 786px) {
+    .help {
+        margin-top: 80px !important;
+    }
+}

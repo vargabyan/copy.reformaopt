@@ -1,0 +1,42 @@
+@media (max-width: 786px) {
+
+    .technologies {
+        margin-top: 80px;
+    }
+
+    .technologies_header {
+        font-size: 24px;
+    }
+
+    .technologies_item {
+        padding: 16px;
+        border-radius: 30px;
+    }
+
+    .technologies_item_img {
+        width: 308px;
+        height: 178px;
+        border-radius: 20px;
+    }
+
+    .technologies_item_footer {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 24px;
+    }
+
+    .technologies_item_footer .descriptions {
+        font-size: 20px;
+    }
+
+    .technologies_item_footer .detail {
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: 500;
+        max-width: 248px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+}

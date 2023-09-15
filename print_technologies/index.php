@@ -1,9 +1,8 @@
 <link rel="stylesheet" href="/fonts.css">
-<link rel="stylesheet" href="/print_technologies/print_technologies.css">
 
 <?php
-require(__DIR__ . '/../navigation/index.php')
-?>
+//require(__DIR__ . '/../navigation/index.php')
+//?>
 
 <?php
 require(__DIR__ . '/../breadcrumb/index.php');
@@ -26,3 +25,4 @@ require(__DIR__ . '/../map/index.php')
 require(__DIR__ . '/../footer/index.php')
 ?>
 
+<link rel="stylesheet" href="/print_technologies/print_technologies.css">

@@ -1,0 +1,32 @@
+@media (max-width: 786px) {
+    .error-404 {
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+    }
+
+    .error-404_img {
+        width: 305px;
+        height: 262px;
+        margin-top: 0;
+    }
+
+    .error-404_text-wrapper {
+        margin-top: 56px;
+    }
+
+    .error-404_header {
+        color: #C7C7D7;
+        font-size: 52px;
+    }
+
+    .error-404_explanation {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .error-404_button {
+        margin-top: 30px;
+        padding: 10px 23px;
+        font-weight: 600;
+    }
+}

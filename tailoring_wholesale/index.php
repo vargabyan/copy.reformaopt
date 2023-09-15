@@ -1,11 +1,11 @@
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="/fonts.css">
-<link rel="stylesheet" href="/tailoring_wholesale/tailoring_wholesale.css">
 
 <?php
-
-require(__DIR__ . '/../navigation/index.php');
-
-?>
+//
+//require(__DIR__ . '/../navigation/index.php');
+//
+//?>
 
 
 <?php
@@ -140,3 +140,7 @@ require(__DIR__ . '/../map/index.php')
 <?php
 require(__DIR__ . '/../footer/index.php')
 ?>
+
+
+<link rel="stylesheet" href="/tailoring_wholesale/tailoring_wholesale.css">
+
