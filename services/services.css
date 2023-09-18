@@ -54,6 +54,7 @@ a {
     position: relative;
     font-size: 28px;
     line-height: 130%;
+    border-radius: 30px;
 }
 
 .services_item:hover {
@@ -64,10 +65,15 @@ a {
 .services_item_wrapper-svg {
     padding: 0 8px 20px 20px;
     position: absolute;
-    top: 0;
-    right: 0;
-    background: #fff;
-    border-bottom-left-radius: 60px;
+    top: -4px;
+    right: -4px;
+    border-bottom-left-radius: 20px;
+    background: url("/home/images/Screenshot 2023-09-18 141750.png");
+    background-repeat: round;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: end;
 }
 
 .services_item_svg {

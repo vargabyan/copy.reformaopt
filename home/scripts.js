@@ -11,6 +11,7 @@ const production_swiper = new Swiper('.production_swiper', {
         nextEl: '.production_swiper_button-next',
         prevEl: '.production_swiper_button-prev',
     },
+    speed: 1000,
 });
 document.addEventListener('click', (e) => {
     const checkbox = e.target.closest('.products_showcase_filter_item');

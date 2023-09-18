@@ -54,7 +54,7 @@ require(__DIR__ . '/../navigation/index.php');
 </div>
 
 <div class="weekly-work">
-    <marquee>
+    <marquee scrollamount="10">
         <div class="weekly-work_content">
             <div class="weekly-work_header">
                 Пошили на этой неделе:

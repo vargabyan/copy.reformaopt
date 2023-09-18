@@ -28,10 +28,13 @@
     }
 
     .about-company_bottom_image-box .wholesale-order {
-        right: -19%;
-        top: 25%;
+        right: -17%;
+        top: 31%;
         left: unset;
         padding: 8px;
+        transform: rotate(90deg);
+        width: 109px;
+        height: 61px;
     }
 
     .about-company_bottom_image-box .wholesale-order:hover {
@@ -47,6 +50,7 @@
         width: 85px;
         height: 85px;
         font-size: 14px;
+        transform: rotate(-90deg);
     }
 
     .about-company_bottom_video-box {

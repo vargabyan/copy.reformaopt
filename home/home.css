@@ -50,16 +50,16 @@ a {
 
 .about-company_bottom_image-box .wholesale-order {
     position: absolute;
-    padding: 12px;
-    background: #FFF;
-    border-radius: 50%;
     color: #FFF;
-    top: -25%;
+    top: -11%;
     left: 13%;
-}
-
-.about-company_bottom_image-box .wholesale-order:hover {
-    padding: 6px;
+    width: 202px;
+    height: 122px;
+    background: url("/home/images/Screenshot 2023-09-18 113014.png");
+    z-index: 9999999;
+    background-repeat: round;
+    display: flex;
+    justify-content: center;
 }
 
 .about-company_bottom_image-box .background-orange {
@@ -75,6 +75,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 5px;
+    margin-top: -30px;
+    cursor: pointer;
 }
 
 .about-company_bottom_image-box .wholesale-order:hover .background-orange {

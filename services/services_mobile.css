@@ -25,6 +25,9 @@
     .services_item_wrapper-svg {
         padding: 0 8px 10px 10px;
         border-bottom-left-radius: 15px;
+        width: 60px;
+        height: 55px;
+        top: -2px;
     }
 
     .services_item-svg-1 {
