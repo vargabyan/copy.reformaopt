@@ -25,17 +25,17 @@
                 </div>
                 <div class="wrapper-footer-logo">
                     Печать и пошив <br> одежды оптом
-                    <img class="footer_logo" src="/home/images/Group-color%202054.png" alt="">
+                    <div class="footer_logo"></div>
                 </div>
             </div>
             <div class="working-time">
                 <div class="working-days">
                     <span>Время работы:</span>
-                    понедельник - пятница <br> с 09:00 до 18:00
+                    понедельник - пятница с 09:00 до 18:00
                 </div>
                 <div class="working-days">
                     <span>Адрес:</span>
-                    Россия, г. Екатеринбург, <br> ул. Новинская д. 2
+                    Россия, г. Екатеринбург, ул. Новинская д. 2
                 </div>
             </div>
         </div>

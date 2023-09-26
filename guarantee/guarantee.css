@@ -30,6 +30,8 @@ a {
     font-size: 77px;
     font-weight: 600;
     line-height: 105%;
+    display: flex;
+    align-items: center;
 }
 
 .guarantee_footer_item-wrapper {

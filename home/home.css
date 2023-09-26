@@ -251,11 +251,23 @@ a {
     line-height: 140%;
     cursor: pointer;
     white-space: nowrap;
+    color: #86869A;
+}
+
+.products_showcase_filter_item:hover {
+    color: black;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
 }
 
 .products_showcase_active {
-    background: #FF6E1D;
-    color: #FFF;
+    color: black;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
     cursor: unset;
 }
 
