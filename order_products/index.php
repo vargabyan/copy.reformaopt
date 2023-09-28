@@ -39,6 +39,16 @@
             </div>
             <div class="order-product-description">
                 <p class="order-product_header">Печать на футболках</p>
+                <div class="order-product_grade-wrapper">
+                    <p class="order-product_grade">4.5</p>
+                    <div class="order-product_stars-wrapper">
+                        <div class="order-product_star"></div>
+                        <div class="order-product_star"></div>
+                        <div class="order-product_star"></div>
+                        <div class="order-product_star"></div>
+                        <div class="order-product_half-star"></div>
+                    </div>
+                </div>
                 <div class="order-product_params">
 
                     <?php if ($params['pageName'] === '/t-shirt_printing') { ?>
