@@ -94,6 +94,22 @@ function popup_city_mini()
             <a class="popup-city-mini-button popup-button-correct" href="">Верно</a>
         </div>
     </div>
+<?php }
+
+function popup_success()
+{ ?>
+    <div class="popup-wrapper">
+        <div class="popup popup-success">
+            <button class="popup_button-close" data-popup-button-close></button>
+            <div class="popup-success_item-wrapper">
+                    <div class="popup-success_icon"></div>
+                    <div class="popup-success_text-wrapper">
+                        <p class="popup-success_header">Заявка получена</p>
+                        <p class="popup-success_text">Наш менеджер вам перезвонит</p>
+                    </div>
+            </div>
+        </div>
+    </div>
 <?php } ?>
 
 
@@ -103,4 +119,5 @@ function popup_city_mini()
 <?php popup_call(); ?>
 <?php popup_city(); ?>
 <?php popup_city_mini(); ?>
+<?php popup_success(); ?>
 
